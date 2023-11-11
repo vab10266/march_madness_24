@@ -1,8 +1,14 @@
-import os
-import pandas as pd
+from pipeline_store import *
 
-DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..\\data'))
-print(DATA_DIR)
+if __name__ == "__main__":
+    # Create an instance of MadnessPipeline
+    madness_pipeline = MadnessPipeline(
+        train_years=[2018, 2019, 2020, 2021],
+        test_year=23,
+        cols=[1, 2, 3, 4, 5, 18, 19],
+    )
 
-df = pd.read_csv(f'{DATA_DIR}\\training_data.csv')
-print(df.head())
+    # Run the MadnessPipeline
+    result = madness_pipeline.run()
+
+    print(f'Result: {result}')

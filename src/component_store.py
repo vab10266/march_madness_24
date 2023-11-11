@@ -1,62 +1,82 @@
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
+from utils import *
 
 class TrainingDataIngestionComponent:
-    def __init__(self, data_path, years, cols=[1, 2, 3, 4, 5, 18, 19]):
-        self.data_path = data_path
+    def __init__(self, years, cols=[1, 2, 3, 4, 5, 18, 19]):
         self.years = years
         self.cols = cols
 
-    def execute(self):
+    def execute(self, _):
+        print("TrainingDataIngestionComponent")
         # Example: Reading data from CSV
-        data = pd.read_csv(self.data_path)
+        data_path = f'{DATA_DIR}\\training_data.csv'
+        print(data_path)
+        data = pd.read_csv(data_path)
+        print(data)
         data = data[data.YEAR.isin(self.years)]
+        print(data)
 
-        X, y = self.column_selector(data, self.cols)
+        X = column_selector(data, self.cols)
         y = data['RESULT']
-
+        print(X)
+        print(y)
         return X, y
 
 class ModelTrainingComponent:
     model_dict = {
         "rfc": RandomForestClassifier
     }
-    def __init__(self, model_key, param_dict):
+    def __init__(self, model_key, param_dict={}):
         self.model = ModelTrainingComponent.model_dict[model_key](**param_dict)
 
-    def execute(self, X, y):
+    def execute(self, input):
+        print("ModelTrainingComponent")
+        print(input)
+        X, y = input
         # Example: Training the model
         self.model.fit(X, y)
 
         return self.model
 
-class InferenceDataIngestionComponent:
-    def __init__(self, data_path, years, cols=[1, 2, 3, 4, 5, 18, 19]):
-        self.data_path = data_path
-        self.years = years
+class InferenceBracketComponent:
+    def __init__(self, year, cols=[1, 2, 3, 4, 5, 18, 19]):
+        self.year = year
         self.cols = cols
+        
+        self.team_data = get_team_data(year)
+        if not 'SEED' in self.team_data.columns:
+            df = pd.read_csv(f'{DATA_DIR}\\teams{year}.csv')
+            self.team_data = pd.merge(df, self.team_data, 'left', on='TEAM')
 
 
     def execute(self, model):
+        print("InferenceBracketComponent")
         # Example: Reading data from CSV
-        data = pd.read_csv(self.data_path)
-        data = data[data.YEAR.isin(self.years)]
-        X = self.column_selector(data, self.cols)
-        return model, X
-
-class ProbMatrixComponent:
-    def __init__(self, teams):
-        pass
-
-    def execute(self, model):
-        # Example: Making predictions
-        predictions = model.predict(X_test)
-
-        # Example: Evaluating model performance
-        accuracy = accuracy_score(y_test, predictions)
-        print(f"Model Accuracy: {accuracy * 100:.2f}%")
-
-        return predictions
+        r1_preds = predict_round(self.team_data, model, self.cols)
+        r2_teams = get_winning_teams(self.team_data, r1_preds)
+        print(r2_teams)
+        print('='*100)
+        r2_preds = predict_round(r2_teams, model, self.cols)
+        r3_teams = get_winning_teams(r2_teams, r2_preds)
+        print(r3_teams)
+        print('='*100)
+        r3_preds = predict_round(r3_teams, model, self.cols)
+        r4_teams = get_winning_teams(r3_teams, r3_preds)
+        print(r4_teams)
+        print('='*100)
+        r4_preds = predict_round(r4_teams, model, self.cols)
+        r5_teams = get_winning_teams(r4_teams, r4_preds)
+        print(r5_teams)
+        print('='*100)
+        r5_preds = predict_round(r5_teams, model, self.cols)
+        r6_teams = get_winning_teams(r5_teams, r5_preds)
+        print(r6_teams)
+        print('='*100)
+        r6_preds = predict_round(r6_teams, model, self.cols)
+        r7_teams = get_winning_teams(r6_teams, r6_preds)
+        print(r7_teams)
+        return r7_teams
 
 class GeneticAlgorithmComponent:
     def __init__(self, population_size, generations):
