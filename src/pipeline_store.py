@@ -16,6 +16,7 @@ class Pipeline:
         data = None
         for component in self.components:
             data = component.execute(data)
+        return data
 
 class MadnessPipeline(Pipeline):
     def __init__(self, train_years, test_year, cols):
