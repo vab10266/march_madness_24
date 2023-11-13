@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..\\data'))
 
@@ -34,7 +35,6 @@ def make_dataset(teams, bracket):
     df = pd.concat((a_df, b_df, bracket_df.RESULT.reset_index(drop=True)), axis=1)
     # y = bracket_df.RESULT
     return df
-
 
 def column_selector(df, cols):
     x_cols = []
@@ -73,14 +73,17 @@ def predict_round(teams, model, cols, prob=False):
 
     X = X[x_cols]
     # print(X)
-    print(model.predict_proba(X))
+    # print(model.predict_proba(X))
     if prob == True:
-        return model.predict_proba(X)
+        probs = model.predict_proba(X)
+        r = np.random.random_sample(probs.shape[0])
+        preds = probs[:, 0] > r
+        return preds.astype(int)
     return model.predict(X)
 
 def get_winning_teams(teams, preds):
     # print(teams)
-    print(preds)
+    # print(preds)
     winners = pd.DataFrame()
     ind = 0
     # print(teams.shape)
@@ -89,3 +92,8 @@ def get_winning_teams(teams, preds):
         winners = pd.concat((winners, teams.iloc[ind + preds[i]]), axis=1)
         ind += 2
     return winners.T
+
+class Bracket:
+    def __init__(self, teams, wins) -> None:
+        self.teams = teams
+        self.wins = wins

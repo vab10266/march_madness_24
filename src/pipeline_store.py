@@ -2,6 +2,7 @@
 # from sklearn.metrics import accuracy_score
 # import numpy as np
 # import pandas as pd
+from time import time
 
 from component_store import *
 
@@ -15,7 +16,9 @@ class Pipeline:
     def run(self):
         data = None
         for component in self.components:
+            t0 = time()
             data = component.execute(data)
+            print(f'Time spent: {time() - t0}')
         return data
 
 class MadnessPipeline(Pipeline):

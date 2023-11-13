@@ -1,5 +1,6 @@
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
+import numpy as np
 from utils import *
 
 class TrainingDataIngestionComponent:
@@ -11,16 +12,16 @@ class TrainingDataIngestionComponent:
         print("TrainingDataIngestionComponent")
         # Example: Reading data from CSV
         data_path = f'{DATA_DIR}\\training_data.csv'
-        print(data_path)
+        # print(data_path)
         data = pd.read_csv(data_path)
-        print(data)
+        # print(data)
         data = data[data.YEAR.isin(self.years)]
-        print(data)
+        # print(data)
 
         X = column_selector(data, self.cols)
         y = data['RESULT']
-        print(X)
-        print(y)
+        # print(X)
+        # print(y)
         return X, y
 
 class ModelTrainingComponent:
@@ -32,7 +33,7 @@ class ModelTrainingComponent:
 
     def execute(self, input):
         print("ModelTrainingComponent")
-        print(input)
+        # print(input)
         X, y = input
         # Example: Training the model
         self.model.fit(X, y)
@@ -40,9 +41,12 @@ class ModelTrainingComponent:
         return self.model
 
 class InferenceBracketComponent:
-    def __init__(self, year, cols=[1, 2, 3, 4, 5, 18, 19]):
+    def __init__(self, year, cols=[1, 2, 3, 4, 5, 18, 19], rand=False, num_groups=1, brackets_per_group=1):
         self.year = year
         self.cols = cols
+        self.rand = rand
+        self.num_groups = num_groups
+        self.brackets_per_group = brackets_per_group
         
         self.team_data = get_team_data(year)
         if not 'SEED' in self.team_data.columns:
@@ -51,32 +55,34 @@ class InferenceBracketComponent:
 
 
     def execute(self, model):
+        # Returns a numpy array of shape (num_groups, brackets_per_group, 63)
         print("InferenceBracketComponent")
-        # Example: Reading data from CSV
-        r1_preds = predict_round(self.team_data, model, self.cols)
-        r2_teams = get_winning_teams(self.team_data, r1_preds)
-        print(r2_teams)
-        print('='*100)
-        r2_preds = predict_round(r2_teams, model, self.cols)
-        r3_teams = get_winning_teams(r2_teams, r2_preds)
-        print(r3_teams)
-        print('='*100)
-        r3_preds = predict_round(r3_teams, model, self.cols)
-        r4_teams = get_winning_teams(r3_teams, r3_preds)
-        print(r4_teams)
-        print('='*100)
-        r4_preds = predict_round(r4_teams, model, self.cols)
-        r5_teams = get_winning_teams(r4_teams, r4_preds)
-        print(r5_teams)
-        print('='*100)
-        r5_preds = predict_round(r5_teams, model, self.cols)
-        r6_teams = get_winning_teams(r5_teams, r5_preds)
-        print(r6_teams)
-        print('='*100)
-        r6_preds = predict_round(r6_teams, model, self.cols)
-        r7_teams = get_winning_teams(r6_teams, r6_preds)
-        print(r7_teams)
-        return r7_teams
+        # Time: 0.1 seconds per bracket
+        groups = []
+        for i in range(self.num_groups):
+            brackets = []
+            for j in range(self.brackets_per_group):
+                r1_preds = predict_round(self.team_data, model, self.cols, prob=self.rand)
+                r2_teams = get_winning_teams(self.team_data, r1_preds)
+
+                r2_preds = predict_round(r2_teams, model, self.cols, prob=self.rand)
+                r3_teams = get_winning_teams(r2_teams, r2_preds)
+                
+                r3_preds = predict_round(r3_teams, model, self.cols, prob=self.rand)
+                r4_teams = get_winning_teams(r3_teams, r3_preds)
+                
+                r4_preds = predict_round(r4_teams, model, self.cols, prob=self.rand)
+                r5_teams = get_winning_teams(r4_teams, r4_preds)
+                
+                r5_preds = predict_round(r5_teams, model, self.cols, prob=self.rand)
+                r6_teams = get_winning_teams(r5_teams, r5_preds)
+                
+                r6_preds = predict_round(r6_teams, model, self.cols, prob=self.rand)
+                r7_teams = get_winning_teams(r6_teams, r6_preds)
+                
+                brackets.append(np.concatenate([r1_preds, r2_preds, r3_preds, r4_preds, r5_preds, r6_preds], axis=0))
+            groups.append(np.stack(brackets, axis=0))
+        return np.stack(groups, axis=0)
 
 class GeneticAlgorithmComponent:
     def __init__(self, population_size, generations):
