@@ -52,6 +52,8 @@ class InferenceBracketComponent:
         if not 'SEED' in self.team_data.columns:
             df = pd.read_csv(f'{DATA_DIR}\\teams{year}.csv')
             self.team_data = pd.merge(df, self.team_data, 'left', on='TEAM')
+        # print("team data")
+        # print(self.team_data)
 
 
     def execute(self, model):

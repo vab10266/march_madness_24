@@ -1,4 +1,5 @@
 from pipeline_store import *
+from evaluation import *
 
 if __name__ == "__main__":
     # Create an instance of MadnessPipeline
@@ -12,3 +13,5 @@ if __name__ == "__main__":
     result = madness_pipeline.run()
 
     print(f'Result: {result}')
+    evaluator = BracketEvaluator(year=23)
+    evaluator.evaluate(result)
