@@ -41,7 +41,7 @@ class ModelTrainingComponent:
         return self.model
 
 class InferenceBracketComponent:
-    def __init__(self, year, cols=[1, 2, 3, 4, 5, 18, 19], rand=False, num_groups=1, brackets_per_group=1):
+    def __init__(self, year, cols=[1, 2, 3, 4, 5, 18, 19], rand=True, num_groups=100, brackets_per_group=50):
         self.year = year
         self.cols = cols
         self.rand = rand

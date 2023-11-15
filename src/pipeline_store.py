@@ -22,7 +22,7 @@ class Pipeline:
         return data
 
 class MadnessPipeline(Pipeline):
-    def __init__(self, train_years, test_year, cols):
+    def __init__(self, train_years, test_year, cols, model_key='rfc', param_dict={"random_state": 69}, rand=True, num_groups=5, brackets_per_group=3):
         super().__init__()
 
         # Define data ingestion component
@@ -31,11 +31,11 @@ class MadnessPipeline(Pipeline):
 
         # Define model training component
         # model = RandomForestClassifier(random_state=42)
-        model_training = ModelTrainingComponent(model_key='rfc', param_dict={"random_state": 69})
+        model_training = ModelTrainingComponent(model_key=model_key, param_dict=param_dict)
         self.add_component(model_training)
 
         # Define model inference component
-        model_inference = InferenceBracketComponent(year=test_year, cols=cols)
+        model_inference = InferenceBracketComponent(year=test_year, cols=cols, rand=rand, num_groups=num_groups, brackets_per_group=brackets_per_group)
         self.add_component(model_inference)
 
         # # Define genetic algorithm component
