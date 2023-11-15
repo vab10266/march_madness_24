@@ -79,4 +79,4 @@ if __name__ == "__main__":
     
     evaluator = BracketEvaluator(year=23)
     score = evaluator.evaluate(real_bracket)
-    print(score)
+    print(f'Score: {score}')

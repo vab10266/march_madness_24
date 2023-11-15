@@ -27,4 +27,4 @@ if __name__ == "__main__":
     print(f'Result: {result}')
     evaluator = BracketEvaluator(year=23)
     score = evaluator.evaluate(result)
-    print(score)
+    print(f'Score: {score}')
