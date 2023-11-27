@@ -21,3 +21,7 @@ if __name__ == "__main__":
     evaluator = BracketEvaluator(year=23)
     score = evaluator.evaluate(result)
     print(f'Score: {score}')
+    
+    print(evaluator.confidence_interval(confidence=0.9))
+    print(evaluator.confidence_interval(confidence=0.95))
+    print(evaluator.confidence_interval(confidence=0.99))

@@ -1,5 +1,6 @@
 from utils import *
 import pandas as pd
+import scipy.stats
 
 real_bracket = np.array(
     [[[
@@ -39,8 +40,8 @@ class BracketEvaluator:
             points = 2**(i)
             point_arr += [points]*num_games
         self.points = np.array(point_arr)
-        # print(self.points)
-        # print(self.points.sum())
+
+        self.best_scores = None
 
     def _bracket_to_strings(self, bracket):
         winning_teams = None
@@ -61,19 +62,25 @@ class BracketEvaluator:
         return self.points[bracket_str == true_str].sum()
 
     def evaluate(self, brackets):
-        # print(bracket.shape)
-        # # print(self.bracket_data)
-        # print(self.team_data)
-        
-        # print(self.eval_one_bracket(brackets[0][0]))
-
         individual_scores = np.apply_along_axis(self.eval_one_bracket, 2, brackets)
-        # print(individual_scores)
-        best_scores = np.max(individual_scores, 1)
-        # print(best_scores)
-        mean_best_scores = np.mean(best_scores)
-        # print(mean_best_scores)
+        self.best_scores = np.max(individual_scores, 1)
+        mean_best_scores = np.mean(self.best_scores)
+
         return mean_best_scores
+    
+    def confidence_interval(self, confidence=0.95, brackets=None):
+        if self.best_scores is None:
+            self.evaluate(brackets)
+        
+        def mean_confidence_interval(data, confidence=0.95):
+            a = 1.0 * np.array(data)
+            n = len(a)
+            m, se = np.mean(a), scipy.stats.sem(a)
+            h = se * scipy.stats.t.ppf((1 + confidence) / 2., n-1)
+            return m, m-h, m+h
+        
+        return mean_confidence_interval(self.best_scores, confidence)
+        
         
 if __name__ == "__main__":
     

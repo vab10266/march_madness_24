@@ -36,8 +36,7 @@ python .\src\main.py
 ## Evaluator
 1. ~~Bracket Score~~
 2. model accuracy
-3. confidence interval
-4. return time
+3. ~~confidence interval~~
 
 ## Experimenter
 1. ~~json to model pipeline~~
