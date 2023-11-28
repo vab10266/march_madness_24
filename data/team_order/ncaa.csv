@@ -1,469 +1,470 @@
-team1,team1score,team1seed,team2,team2score,team2seed,result,year
-Kansas,105,1,Austin Peay,79,16,1,2016
-Colorado,67,8,UConn,74,9,1,2016
-Maryland,79,5,South Dakota St.,74,12,0,2016
-California,66,4,Hawaii,77,13,1,2016
-Arizona,55,6,Wichita St.,65,11,1,2016
-Miami (FL),79,3,Buffalo,72,14,0,2016
-Iowa,72,7,Temple,70,10,0,2016
-Villanova,86,2,UNC Asheville,56,15,0,2016
-Kansas,73,1,UConn,61,9,0,2016
-Maryland,73,5,Hawaii,60,13,0,2016
-Wichita St.,57,11,Miami (FL),65,3,1,2016
-Iowa,68,7,Villanova,87,2,1,2016
-Kansas,79,1,Maryland,63,5,0,2016
-Miami (FL),69,3,Villanova,92,2,1,2016
-Kansas,59,1,Villanova,64,2,1,2016
-North Carolina,83,1,FGCU,67,16,0,2016
-Southern California,69,8,Providence,70,9,1,2016
-Indiana,99,5,Chattanooga,74,12,0,2016
-Kentucky,85,4,Stony Brook,57,13,0,2016
-Notre Dame,70,6,Michigan,63,11,0,2016
-West Virginia,56,3,SFA,70,14,1,2016
-Wisconsin,47,7,Pittsburgh,43,10,0,2016
-Xavier,71,2,Weber St.,53,15,0,2016
-North Carolina,85,1,Providence,66,9,0,2016
-Indiana,73,5,Kentucky,67,4,0,2016
-Notre Dame,76,6,SFA,75,14,0,2016
-Wisconsin,66,7,Xavier,63,2,0,2016
-North Carolina,101,1,Indiana,86,5,1,2016
-Notre Dame,61,6,Wisconsin,56,7,0,2016
-North Carolina,88,1,Notre Dame,74,6,0,2016
-Villanova,95,2,Oklahoma,51,2,0,2016
-Villanova,77,2,North Carolina,74,1,0,2016
-North Carolina,83,1,Syracuse,66,10,0,2016
-Oregon,91,1,Holy Cross,52,16,0,2016
-Saint Joseph's,78,8,Cincinnati,76,9,0,2016
-Baylor,75,5,Yale,79,12,1,2016
-Duke,93,4,UNCW,85,13,0,2016
-Texas,72,6,UNI,75,11,1,2016
-Texas A&amp;M,92,3,Green Bay,65,14,0,2016
-Oregon St.,67,7,VCU,75,10,1,2016
-Oklahoma,82,2,CSU Bakersfield,68,15,0,2016
-Oregon,69,1,Saint Joseph's,64,8,0,2016
-Yale,64,12,Duke,71,4,1,2016
-UNI,88,11,Texas A&amp;M,92,3,1,2016
-VCU,81,10,Oklahoma,85,2,1,2016
-Oregon,82,1,Duke,68,4,0,2016
-Texas A&amp;M,63,3,Oklahoma,77,2,1,2016
-Oregon,68,1,Oklahoma,80,2,1,2016
-Virginia,81,1,Hampton,45,16,0,2016
-Texas Tech,61,8,Butler,71,9,1,2016
-Purdue,83,5,Little Rock,85,12,1,2016
-Iowa St.,94,4,Iona,81,13,0,2016
-Seton Hall,52,6,Gonzaga,68,11,1,2016
-Utah,80,3,Fresno St.,69,14,0,2016
-Dayton,51,7,Syracuse,70,10,1,2016
-Michigan St.,81,2,Middle Tenn.,90,15,1,2016
-Virginia,77,1,Butler,69,9,0,2016
-Little Rock,61,12,Iowa St.,78,4,1,2016
-Gonzaga,82,11,Utah,59,3,0,2016
-Syracuse,75,10,Middle Tenn.,50,15,0,2016
-Virginia,84,1,Iowa St.,71,4,0,2016
-Gonzaga,60,11,Syracuse,63,10,1,2016
-Virginia,62,1,Syracuse,68,10,1,2016
-Vanderbilt,50,11,Wichita St.,70,11,1,2016
-FGCU,96,16,FDU,65,16,0,2016
-Michigan,67,11,Tulsa,62,11,0,2016
-Holy Cross,59,16,Southern U.,55,16,0,2016
-Villanova,76,1,Mount St. Mary's,56,16,0,2017
-Wisconsin,84,8,Virginia Tech,74,9,0,2017
-Virginia,76,5,UNCW,71,12,0,2017
-Florida,80,4,ETSU,65,13,0,2017
-SMU,65,6,Southern California,66,11,1,2017
-Baylor,91,3,New Mexico St.,73,14,0,2017
-South Carolina,93,7,Marquette,73,10,0,2017
-Duke,87,2,Troy,65,15,0,2017
-Villanova,62,1,Wisconsin,65,8,1,2017
-Virginia,39,5,Florida,65,4,1,2017
-Southern California,78,11,Baylor,82,3,1,2017
-South Carolina,88,7,Duke,81,2,0,2017
-Wisconsin,83,8,Florida,84,4,1,2017
-Baylor,50,3,South Carolina,70,7,1,2017
-Florida,70,4,South Carolina,77,7,1,2017
-Kansas,100,1,UC Davis,62,16,1,2017
-Miami (FL),58,8,Michigan St.,78,9,1,2017
-Iowa St.,84,5,Nevada,73,12,0,2017
-Purdue,80,4,Vermont,70,13,0,2017
-Creighton,72,6,Rhode Island,84,11,1,2017
-Oregon,93,3,Iona,77,14,0,2017
-Michigan,92,7,Oklahoma St.,91,10,0,2017
-Louisville,78,2,Jacksonville St.,63,15,0,2017
-Kansas,90,1,Michigan St.,70,9,0,2017
-Iowa St.,76,5,Purdue,80,4,1,2017
-Rhode Island,72,11,Oregon,75,3,1,2017
-Michigan,73,7,Louisville,69,2,0,2017
-Kansas,98,1,Purdue,66,4,0,2017
-Oregon,69,3,Michigan,68,7,0,2017
-Kansas,60,1,Oregon,74,3,1,2017
-South Carolina,73,7,Gonzaga,77,1,1,2017
-Gonzaga,65,1,North Carolina,71,1,1,2017
-Oregon,76,3,North Carolina,77,1,1,2017
-Gonzaga,66,1,South Dakota St.,46,16,0,2017
-Northwestern,68,8,Vanderbilt,66,9,0,2017
-Notre Dame,60,5,Princeton,58,12,0,2017
-West Virginia,86,4,Bucknell,80,13,0,2017
-Maryland,65,6,Xavier,76,11,1,2017
-Florida St.,86,3,FGCU,80,14,0,2017
-Saint Mary's (CA),85,7,VCU,77,10,0,2017
-Arizona,100,2,North Dakota,82,15,1,2017
-Gonzaga,79,1,Northwestern,73,8,0,2017
-Notre Dame,71,5,West Virginia,83,4,1,2017
-Xavier,91,11,Florida St.,66,3,0,2017
-Saint Mary's (CA),60,7,Arizona,69,2,1,2017
-Gonzaga,61,1,West Virginia,58,4,0,2017
-Xavier,73,11,Arizona,71,2,0,2017
-Gonzaga,83,1,Xavier,59,11,0,2017
-North Carolina,103,1,Texas Southern,64,16,1,2017
-Arkansas,77,8,Seton Hall,71,9,0,2017
-Minnesota,72,5,Middle Tenn.,81,12,1,2017
-Butler,76,4,Winthrop,64,13,0,2017
-Cincinnati,75,6,Kansas St.,61,11,0,2017
-UCLA,97,3,Kent St.,80,14,0,2017
-Dayton,58,7,Wichita St.,64,10,1,2017
-Kentucky,79,2,Northern Ky.,70,15,0,2017
-North Carolina,72,1,Arkansas,65,8,0,2017
-Middle Tenn.,65,12,Butler,74,4,1,2017
-Cincinnati,67,6,UCLA,79,3,1,2017
-Wichita St.,62,10,Kentucky,65,2,1,2017
-North Carolina,92,1,Butler,80,4,0,2017
-UCLA,75,3,Kentucky,86,2,1,2017
-North Carolina,75,1,Kentucky,73,2,0,2017
-Kansas St.,95,11,Wake Forest,88,11,0,2017
-Mount St. Mary's,67,16,New Orleans,66,16,0,2017
-N.C. Central,63,16,UC Davis,67,16,1,2017
-Providence,71,11,Southern California,75,11,1,2017
-Virginia,54,1,UMBC,74,16,1,2018
-Creighton,59,8,Kansas St.,69,9,1,2018
-Kentucky,78,5,Davidson,73,12,0,2018
-Arizona,68,4,Buffalo,89,13,1,2018
-Miami (FL),62,6,Loyola Chicago,64,11,1,2018
-Tennessee,73,3,Wright St.,47,14,0,2018
-Nevada,87,7,Texas,83,10,0,2018
-Cincinnati,68,2,Georgia St.,53,15,0,2018
-UMBC,43,16,Kansas St.,50,9,1,2018
-Kentucky,95,5,Buffalo,75,13,0,2018
-Loyola Chicago,63,11,Tennessee,62,3,0,2018
-Nevada,75,7,Cincinnati,73,2,0,2018
-Kansas St.,61,9,Kentucky,58,5,0,2018
-Loyola Chicago,69,11,Nevada,68,7,0,2018
-Kansas St.,62,9,Loyola Chicago,78,11,1,2018
-Villanova,87,1,Radford,61,16,0,2018
-Virginia Tech,83,8,Alabama,86,9,1,2018
-West Virginia,85,5,Murray St.,68,12,0,2018
-Wichita St.,75,4,Marshall,81,13,1,2018
-Florida,77,6,St. Bonaventure,62,11,0,2018
-Texas Tech,70,3,SFA,60,14,0,2018
-Arkansas,62,7,Butler,79,10,1,2018
-Purdue,74,2,Cal St. Fullerton,48,15,0,2018
-Villanova,81,1,Alabama,58,9,0,2018
-West Virginia,94,5,Marshall,71,13,0,2018
-Florida,66,6,Texas Tech,69,3,1,2018
-Butler,73,10,Purdue,76,2,1,2018
-Villanova,90,1,West Virginia,78,5,0,2018
-Texas Tech,78,3,Purdue,65,2,0,2018
-Villanova,71,1,Texas Tech,59,3,0,2018
-Loyola Chicago,57,11,Michigan,69,3,1,2018
-Michigan,62,3,Villanova,79,1,1,2018
-Villanova,95,1,Kansas,79,1,0,2018
-Xavier,102,1,Texas Southern,83,16,1,2018
-Missouri,54,8,Florida St.,67,9,1,2018
-Ohio St.,81,5,South Dakota St.,73,12,0,2018
-Gonzaga,68,4,UNC Greensboro,64,13,0,2018
-Houston,67,6,San Diego St.,65,11,0,2018
-Michigan,61,3,Montana,47,14,0,2018
-Texas A&amp;M,73,7,Providence,69,10,0,2018
-North Carolina,84,2,Lipscomb,66,15,0,2018
-Xavier,70,1,Florida St.,75,9,1,2018
-Ohio St.,84,5,Gonzaga,90,4,1,2018
-Houston,63,6,Michigan,64,3,1,2018
-Texas A&amp;M,86,7,North Carolina,65,2,0,2018
-Florida St.,75,9,Gonzaga,60,4,0,2018
-Michigan,99,3,Texas A&amp;M,72,7,0,2018
-Florida St.,54,9,Michigan,58,3,1,2018
-Kansas,76,1,Penn,60,16,0,2018
-Seton Hall,94,8,NC State,83,9,0,2018
-Clemson,79,5,New Mexico St.,68,12,0,2018
-Auburn,62,4,Col. of Charleston,58,13,0,2018
-TCU,52,6,Syracuse,57,11,1,2018
-Michigan St.,82,3,Bucknell,78,14,0,2018
-Rhode Island,83,7,Oklahoma,78,10,0,2018
-Duke,89,2,Iona,67,15,0,2018
-Kansas,83,1,Seton Hall,79,8,0,2018
-Clemson,84,5,Auburn,53,4,0,2018
-Syracuse,55,11,Michigan St.,53,3,0,2018
-Rhode Island,62,7,Duke,87,2,1,2018
-Kansas,80,1,Clemson,76,5,0,2018
-Syracuse,65,11,Duke,69,2,1,2018
-Kansas,85,1,Duke,81,2,0,2018
-LIU,61,16,Radford,71,16,1,2018
-St. Bonaventure,65,11,UCLA,58,11,0,2018
-N.C. Central,46,16,Texas Southern,64,16,1,2018
-Arizona St.,56,11,Syracuse,60,11,1,2018
-Duke,85,1,North Dakota St.,62,16,0,2019
-VCU,58,8,UCF,73,9,1,2019
-Mississippi St.,76,5,Liberty,80,12,1,2019
-Virginia Tech,66,4,Saint Louis,52,13,0,2019
-Maryland,79,6,Belmont,77,11,0,2019
-LSU,79,3,Yale,74,14,0,2019
-Louisville,76,7,Minnesota,86,10,1,2019
-Michigan St.,76,2,Bradley,65,15,0,2019
-Duke,77,1,UCF,76,9,0,2019
-Liberty,58,12,Virginia Tech,67,4,1,2019
-Maryland,67,6,LSU,69,3,1,2019
-Minnesota,50,10,Michigan St.,70,2,1,2019
-Duke,75,1,Virginia Tech,73,4,0,2019
-LSU,63,3,Michigan St.,80,2,1,2019
-Duke,67,1,Michigan St.,68,2,1,2019
-Virginia,71,1,Gardner-Webb,56,16,0,2019
-Ole Miss,72,8,Oklahoma,95,9,1,2019
-Wisconsin,54,5,Oregon,72,12,1,2019
-Kansas St.,64,4,UC Irvine,70,13,1,2019
-Villanova,61,6,Saint Mary's (CA),57,11,0,2019
-Purdue,61,3,Old Dominion,48,14,0,2019
-Cincinnati,72,7,Iowa,79,10,1,2019
-Tennessee,77,2,Colgate,70,15,0,2019
-Virginia,63,1,Oklahoma,51,9,0,2019
-Oregon,73,12,UC Irvine,54,13,0,2019
-Villanova,61,6,Purdue,87,3,1,2019
-Iowa,77,10,Tennessee,83,2,1,2019
-Virginia,53,1,Oregon,49,12,0,2019
-Purdue,99,3,Tennessee,94,2,0,2019
-Virginia,80,1,Purdue,75,3,0,2019
-Michigan St.,51,2,Texas Tech,61,3,1,2019
-Texas Tech,77,3,Virginia,85,1,1,2019
-Virginia,63,1,Auburn,62,5,0,2019
-Gonzaga,87,1,FDU,49,16,0,2019
-Syracuse,69,8,Baylor,78,9,1,2019
-Marquette,64,5,Murray St.,83,12,1,2019
-Florida St.,76,4,Vermont,69,13,0,2019
-Buffalo,91,6,Arizona St.,74,11,0,2019
-Texas Tech,72,3,Northern Ky.,57,14,0,2019
-Nevada,61,7,Florida,70,10,1,2019
-Michigan,74,2,Montana,55,15,0,2019
-Gonzaga,83,1,Baylor,71,9,0,2019
-Murray St.,62,12,Florida St.,90,4,1,2019
-Buffalo,58,6,Texas Tech,78,3,1,2019
-Florida,49,10,Michigan,64,2,1,2019
-Gonzaga,72,1,Florida St.,58,4,0,2019
-Texas Tech,63,3,Michigan,44,2,0,2019
-Gonzaga,69,1,Texas Tech,75,3,1,2019
-North Carolina,88,1,Iona,73,16,0,2019
-Utah St.,61,8,Washington,78,9,1,2019
-Auburn,78,5,New Mexico St.,77,12,0,2019
-Kansas,87,4,Northeastern,53,13,0,2019
-Iowa St.,59,6,Ohio St.,62,11,1,2019
-Houston,84,3,Georgia St.,55,14,0,2019
-Wofford,84,7,Seton Hall,68,10,0,2019
-Kentucky,79,2,Abilene Christian,44,15,0,2019
-North Carolina,81,1,Washington,59,9,0,2019
-Auburn,89,5,Kansas,75,4,0,2019
-Ohio St.,59,11,Houston,74,3,1,2019
-Wofford,56,7,Kentucky,62,2,1,2019
-North Carolina,80,1,Auburn,97,5,1,2019
-Houston,58,3,Kentucky,62,2,1,2019
-Auburn,77,5,Kentucky,71,2,0,2019
-Prairie View,76,16,FDU,82,16,1,2019
-Belmont,81,11,Temple,70,11,0,2019
-North Dakota St.,78,16,N.C. Central,74,16,0,2019
-Arizona St.,74,11,St. John's (NY),65,11,0,2019
-Gonzaga,98,1,NSU/APPST,55,16,0,2021
-Oklahoma,72,8,Missouri,68,9,0,2021
-Creighton,63,5,UC Santa Barbara,62,12,0,2021
-Virginia,58,4,Ohio,62,13,1,2021
-Southern California,72,6,WSU/DRAKE,56,11,0,2021
-Kansas,93,3,Eastern Wash.,84,14,0,2021
-Iowa,86,2,Grand Canyon,74,15,0,2021
-Gonzaga,87,1,Oklahoma,71,8,0,2021
-Creighton,72,5,Ohio,58,13,0,2021
-Southern California,85,6,Kansas,51,3,0,2021
-Oregon,95,7,Iowa,80,2,0,2021
-Gonzaga,83,1,Creighton,65,5,0,2021
-Southern California,82,6,Oregon,68,7,0,2021
-Gonzaga,85,1,Southern California,66,6,0,2021
-Baylor,79,1,Hartford,55,16,0,2021
-North Carolina,62,8,Wisconsin,85,9,1,2021
-Villanova,73,5,Winthrop,63,12,0,2021
-Purdue,69,4,North Texas,78,13,1,2021
-Texas Tech,65,6,Utah St.,53,11,0,2021
-Arkansas,85,3,Colgate,68,14,0,2021
-Florida,75,7,Virginia Tech,70,10,0,2021
-Ohio St.,72,2,Oral Roberts,75,15,1,2021
-Baylor,76,1,Wisconsin,63,9,0,2021
-Villanova,84,5,North Texas,61,13,0,2021
-Texas Tech,66,6,Arkansas,68,3,1,2021
-Florida,78,7,Oral Roberts,81,15,1,2021
-Baylor,62,1,Villanova,51,5,0,2021
-Arkansas,72,3,Oral Roberts,70,15,0,2021
-Baylor,81,1,Arkansas,72,3,0,2021
-Gonzaga,93,1,UCLA,90,11,0,2021
-Gonzaga,70,1,Baylor,86,1,1,2021
-Baylor,78,1,Houston,59,2,0,2021
-Michigan,82,1,MSM/TXSO,66,16,0,2021
-LSU,76,8,St. Bonaventure,61,9,0,2021
-Colorado,96,5,Georgetown,73,12,0,2021
-Florida St.,64,4,UNC Greensboro,54,13,0,2021
-BYU,62,6,MSU/UCLA,73,11,1,2021
-Texas,52,3,Abilene Christian,53,14,1,2021
-UConn,54,7,Maryland,63,10,1,2021
-Alabama,68,2,Iona,55,15,0,2021
-Michigan,86,1,LSU,78,8,0,2021
-Colorado,53,5,Florida St.,71,4,1,2021
-UCLA,67,11,Abilene Christian,47,14,0,2021
-Maryland,77,10,Alabama,96,2,1,2021
-Michigan,76,1,Florida St.,58,4,0,2021
-UCLA,88,11,Alabama,78,2,0,2021
-Michigan,49,1,UCLA,51,11,1,2021
-Illinois,78,1,Drexel,49,16,0,2021
-Loyola Chicago,71,8,Georgia Tech,60,9,0,2021
-Tennessee,56,5,Oregon St.,70,12,1,2021
-Oklahoma St.,69,4,Liberty,60,13,0,2021
-San Diego St.,62,6,Syracuse,78,11,1,2021
-West Virginia,84,3,Morehead St.,67,14,0,2021
-Clemson,56,7,Rutgers,60,10,1,2021
-Houston,87,2,Cleveland St.,56,15,0,2021
-Illinois,58,1,Loyola Chicago,71,8,1,2021
-Oregon St.,80,12,Oklahoma St.,70,4,0,2021
-Syracuse,75,11,West Virginia,72,3,0,2021
-Rutgers,60,10,Houston,63,2,1,2021
-Loyola Chicago,58,8,Oregon St.,65,12,1,2021
-Syracuse,46,11,Houston,62,2,1,2021
-Oregon St.,61,12,Houston,67,2,1,2021
-Norfolk St.,54,16,App State,53,16,0,2021
-Wichita St.,52,11,Drake,53,11,1,2021
-Mount St. Mary's,52,16,Texas Southern,60,16,1,2021
-Michigan St.,80,11,UCLA,86,11,1,2021
-Gonzaga,93,1,Georgia St.,72,16,0,2022
-Boise St.,53,8,Memphis,64,9,1,2022
-UConn,63,5,New Mexico St.,70,12,1,2022
-Arkansas,75,4,Vermont,71,13,0,2022
-Alabama,64,6,Notre Dame,78,11,1,2022
-Texas Tech,97,3,Montana St.,62,14,0,2022
-Michigan St.,74,7,Davidson,73,10,0,2022
-Duke,78,2,Cal State Fullerton,61,15,0,2022
-Gonzaga,82,1,Memphis,78,9,0,2022
-New Mexico St.,48,12,Arkansas,53,4,1,2022
-Notre Dame,53,11,Texas Tech,59,3,1,2022
-Michigan St.,76,7,Duke,85,2,1,2022
-Gonzaga,68,1,Arkansas,74,4,1,2022
-Texas Tech,73,3,Duke,78,2,1,2022
-Arkansas,69,4,Duke,78,2,1,2022
-Arizona,87,1,Wright St.,70,16,0,2022
-Seton Hall,42,8,TCU,69,9,1,2022
-Houston,82,5,UAB,68,12,0,2022
-Illinois,54,4,Chattanooga,53,13,0,2022
-Colorado St.,63,6,Michigan,75,11,1,2022
-Tennessee,88,3,Longwood,56,14,0,2022
-Ohio St.,54,7,Loyola Chicago,41,10,0,2022
-Villanova,80,2,Delaware,60,15,0,2022
-Arizona,85,1,TCU,80,9,0,2022
-Houston,68,5,Illinois,53,4,0,2022
-Michigan,76,11,Tennessee,68,3,0,2022
-Ohio St.,61,7,Villanova,71,2,1,2022
-Arizona,60,1,Houston,72,5,1,2022
-Michigan,55,11,Villanova,63,2,1,2022
-Houston,44,5,Villanova,50,2,1,2022
-Duke,77,2,North Carolina,81,8,1,2022
-North Carolina,69,8,Kansas,72,1,1,2022
-Villanova,65,2,Kansas,81,1,1,2022
-Baylor,85,1,Norfolk St.,49,16,0,2022
-North Carolina,95,8,Marquette,63,9,0,2022
-Saint Mary's (CA),82,5,Indiana,53,12,0,2022
-UCLA,57,4,Akron,53,13,0,2022
-Texas,81,6,Virginia Tech,73,11,0,2022
-Purdue,78,3,Yale,56,14,0,2022
-Murray St.,92,7,San Francisco,87,10,0,2022
-Kentucky,79,2,Saint Peter's,85,15,1,2022
-Baylor,86,1,North Carolina,93,8,1,2022
-Saint Mary's (CA),56,5,UCLA,72,4,1,2022
-Texas,71,6,Purdue,81,3,1,2022
-Murray St.,60,7,Saint Peter's,70,15,1,2022
-North Carolina,73,8,UCLA,66,4,0,2022
-Purdue,64,3,Saint Peter's,67,15,1,2022
-North Carolina,69,8,Saint Peter's,49,15,0,2022
-Kansas,83,1,Texas Southern,56,16,0,2022
-San Diego St.,69,8,Creighton,72,9,1,2022
-Iowa,63,5,Richmond,67,12,1,2022
-Providence,66,4,South Dakota St.,57,13,0,2022
-LSU,54,6,Iowa St.,59,11,1,2022
-Wisconsin,67,3,Colgate,60,14,0,2022
-Southern California,66,7,Miami (FL),68,10,1,2022
-Auburn,80,2,Jacksonville St.,61,15,0,2022
-Kansas,79,1,Creighton,72,9,0,2022
-Richmond,51,12,Providence,79,4,1,2022
-Iowa St.,54,11,Wisconsin,49,3,0,2022
-Miami (FL),79,10,Auburn,61,2,0,2022
-Kansas,66,1,Providence,61,4,0,2022
-Iowa St.,56,11,Miami (FL),70,10,1,2022
-Kansas,76,1,Miami (FL),50,10,0,2022
-Texas Southern,76,16,A&amp;M-Corpus Christi,67,16,0,2022
-Wyoming,58,12,Indiana,66,12,1,2022
-Wright St.,93,16,Bryant,82,16,0,2022
-Rutgers,87,11,Notre Dame,89,11,1,2022
-Alabama,96,1,A&amp;M-Corpus Christi,75,16,0,2023
-Maryland,67,8,West Virginia,65,9,0,2023
-San Diego St.,63,5,Col. of Charleston,57,12,0,2023
-Virginia,67,4,Furman,68,13,1,2023
-Creighton,72,6,NC State,63,11,0,2023
-Baylor,74,3,UC Santa Barbara,56,14,0,2023
-Missouri,76,7,Utah St.,65,10,0,2023
-Arizona,55,2,Princeton,59,15,1,2023
-Alabama,73,1,Maryland,51,8,0,2023
-San Diego St.,75,5,Furman,52,13,0,2023
-Creighton,85,6,Baylor,76,3,0,2023
-Missouri,63,7,Princeton,78,15,1,2023
-Alabama,64,1,San Diego St.,71,5,1,2023
-Creighton,86,6,Princeton,75,15,0,2023
-San Diego St.,57,5,Creighton,56,6,0,2023
-Houston,63,1,Northern Ky.,52,16,0,2023
-Iowa,75,8,Auburn,83,9,1,2023
-Miami (FL),63,5,Drake,56,12,0,2023
-Indiana,71,4,Kent St.,60,13,0,2023
-Iowa St.,41,6,Pittsburgh,59,11,1,2023
-Xavier,72,3,Kennesaw St.,67,14,0,2023
-Texas A&amp;M,59,7,Penn St.,76,10,1,2023
-Texas,81,2,Colgate,61,15,0,2023
-Houston,81,1,Auburn,64,9,0,2023
-Miami (FL),85,5,Indiana,69,4,0,2023
-Pittsburgh,73,11,Xavier,84,3,1,2023
-Penn St.,66,10,Texas,71,2,1,2023
-Houston,75,1,Miami (FL),89,5,1,2023
-Xavier,71,3,Texas,83,2,1,2023
-Miami (FL),88,5,Texas,81,2,0,2023
-San Diego St.,72,5,Fla. Atlantic,71,9,0,2023
-San Diego St.,59,5,UConn,76,4,1,2023
-Miami (FL),59,5,UConn,72,4,1,2023
-Purdue,58,1,FDU,63,16,1,2023
-Memphis,65,8,Fla. Atlantic,66,9,1,2023
-Duke,74,5,Oral Roberts,51,12,0,2023
-Tennessee,58,4,Louisiana,55,13,0,2023
-Kentucky,61,6,Providence,53,11,0,2023
-Kansas St.,77,3,Montana St.,65,14,0,2023
-Michigan St.,72,7,Southern California,62,10,0,2023
-Marquette,78,2,Vermont,61,15,0,2023
-FDU,70,16,Fla. Atlantic,78,9,1,2023
-Duke,52,5,Tennessee,65,4,1,2023
-Kentucky,69,6,Kansas St.,75,3,1,2023
-Michigan St.,69,7,Marquette,60,2,0,2023
-Fla. Atlantic,62,9,Tennessee,55,4,0,2023
-Kansas St.,98,3,Michigan St.,93,7,0,2023
-Fla. Atlantic,79,9,Kansas St.,76,3,0,2023
-Kansas,96,1,Howard,68,16,0,2023
-Arkansas,73,8,Illinois,63,9,0,2023
-Saint Mary's (CA),63,5,VCU,51,12,0,2023
-UConn,87,4,Iona,63,13,0,2023
-TCU,72,6,Arizona St.,70,11,0,2023
-Gonzaga,82,3,Grand Canyon,70,14,0,2023
-Northwestern,75,7,Boise St.,67,10,0,2023
-UCLA,86,2,UNC Asheville,53,15,0,2023
-Kansas,71,1,Arkansas,72,8,1,2023
-Saint Mary's (CA),55,5,UConn,70,4,1,2023
-TCU,81,6,Gonzaga,84,3,1,2023
-Northwestern,63,7,UCLA,68,2,1,2023
-Arkansas,65,8,UConn,88,4,1,2023
-Gonzaga,79,3,UCLA,76,2,0,2023
-UConn,82,4,Gonzaga,54,3,0,2023
-A&amp;M-Corpus Christi,75,16,Southeast Mo. St.,71,16,0,2023
-Texas Southern,61,16,FDU,84,16,1,2023
-Arizona St.,98,11,Nevada,73,11,0,2023
-Mississippi St.,59,11,Pittsburgh,60,11,1,2023
+team1,team1score,team1seed,team2,team2score,team2seed,result,year,round
+Kansas,105,1,Austin Peay,79,16,1,2016,1
+Colorado,67,8,UConn,74,9,1,2016,1
+Maryland,79,5,South Dakota St.,74,12,0,2016,1
+California,66,4,Hawaii,77,13,1,2016,1
+Arizona,55,6,Wichita St.,65,11,1,2016,1
+Miami (FL),79,3,Buffalo,72,14,0,2016,1
+Iowa,72,7,Temple,70,10,0,2016,1
+Villanova,86,2,UNC Asheville,56,15,0,2016,1
+Kansas,73,1,UConn,61,9,0,2016,2
+Maryland,73,5,Hawaii,60,13,0,2016,2
+Wichita St.,57,11,Miami (FL),65,3,1,2016,2
+Iowa,68,7,Villanova,87,2,1,2016,2
+Kansas,79,1,Maryland,63,5,0,2016,3
+Miami (FL),69,3,Villanova,92,2,1,2016,3
+Kansas,59,1,Villanova,64,2,1,2016,4
+North Carolina,83,1,FGCU,67,16,0,2016,1
+Southern California,69,8,Providence,70,9,1,2016,1
+Indiana,99,5,Chattanooga,74,12,0,2016,1
+Kentucky,85,4,Stony Brook,57,13,0,2016,1
+Notre Dame,70,6,Michigan,63,11,0,2016,1
+West Virginia,56,3,SFA,70,14,1,2016,1
+Wisconsin,47,7,Pittsburgh,43,10,0,2016,1
+Xavier,71,2,Weber St.,53,15,0,2016,1
+North Carolina,85,1,Providence,66,9,0,2016,2
+Indiana,73,5,Kentucky,67,4,0,2016,2
+Notre Dame,76,6,SFA,75,14,0,2016,2
+Wisconsin,66,7,Xavier,63,2,0,2016,2
+North Carolina,101,1,Indiana,86,5,1,2016,3
+Notre Dame,61,6,Wisconsin,56,7,0,2016,3
+North Carolina,88,1,Notre Dame,74,6,0,2016,4
+Villanova,95,2,Oklahoma,51,2,0,2016,5
+Villanova,77,2,North Carolina,74,1,0,2016,6
+North Carolina,83,1,Syracuse,66,10,0,2016,5
+Oregon,91,1,Holy Cross,52,16,0,2016,1
+Saint Joseph's,78,8,Cincinnati,76,9,0,2016,1
+Baylor,75,5,Yale,79,12,1,2016,1
+Duke,93,4,UNCW,85,13,0,2016,1
+Texas,72,6,UNI,75,11,1,2016,1
+Texas A&amp;M,92,3,Green Bay,65,14,0,2016,1
+Oregon St.,67,7,VCU,75,10,1,2016,1
+Oklahoma,82,2,CSU Bakersfield,68,15,0,2016,1
+Oregon,69,1,Saint Joseph's,64,8,0,2016,2
+Yale,64,12,Duke,71,4,1,2016,2
+UNI,88,11,Texas A&amp;M,92,3,1,2016,2
+VCU,81,10,Oklahoma,85,2,1,2016,2
+Oregon,82,1,Duke,68,4,0,2016,3
+Texas A&amp;M,63,3,Oklahoma,77,2,1,2016,3
+Oregon,68,1,Oklahoma,80,2,1,2016,4
+Virginia,81,1,Hampton,45,16,0,2016,1
+Texas Tech,61,8,Butler,71,9,1,2016,1
+Purdue,83,5,Little Rock,85,12,1,2016,1
+Iowa St.,94,4,Iona,81,13,0,2016,1
+Seton Hall,52,6,Gonzaga,68,11,1,2016,1
+Utah,80,3,Fresno St.,69,14,0,2016,1
+Dayton,51,7,Syracuse,70,10,1,2016,1
+Michigan St.,81,2,Middle Tenn.,90,15,1,2016,1
+Virginia,77,1,Butler,69,9,0,2016,2
+Little Rock,61,12,Iowa St.,78,4,1,2016,2
+Gonzaga,82,11,Utah,59,3,0,2016,2
+Syracuse,75,10,Middle Tenn.,50,15,0,2016,2
+Virginia,84,1,Iowa St.,71,4,0,2016,3
+Gonzaga,60,11,Syracuse,63,10,1,2016,3
+Virginia,62,1,Syracuse,68,10,1,2016,4
+Vanderbilt,50,11,Wichita St.,70,11,1,2016,0
+FGCU,96,16,FDU,65,16,0,2016,0
+Michigan,67,11,Tulsa,62,11,0,2016,0
+Holy Cross,59,16,Southern U.,55,16,0,2016,0
+Villanova,76,1,Mount St. Mary's,56,16,0,2017,1
+Wisconsin,84,8,Virginia Tech,74,9,0,2017,1
+Virginia,76,5,UNCW,71,12,0,2017,1
+Florida,80,4,ETSU,65,13,0,2017,1
+SMU,65,6,Southern California,66,11,1,2017,1
+Baylor,91,3,New Mexico St.,73,14,0,2017,1
+South Carolina,93,7,Marquette,73,10,0,2017,1
+Duke,87,2,Troy,65,15,0,2017,1
+Villanova,62,1,Wisconsin,65,8,1,2017,2
+Virginia,39,5,Florida,65,4,1,2017,2
+Southern California,78,11,Baylor,82,3,1,2017,2
+South Carolina,88,7,Duke,81,2,0,2017,2
+Wisconsin,83,8,Florida,84,4,1,2017,3
+Baylor,50,3,South Carolina,70,7,1,2017,3
+Florida,70,4,South Carolina,77,7,1,2017,4
+Kansas,100,1,UC Davis,62,16,1,2017,1
+Miami (FL),58,8,Michigan St.,78,9,1,2017,1
+Iowa St.,84,5,Nevada,73,12,0,2017,1
+Purdue,80,4,Vermont,70,13,0,2017,1
+Creighton,72,6,Rhode Island,84,11,1,2017,1
+Oregon,93,3,Iona,77,14,0,2017,1
+Michigan,92,7,Oklahoma St.,91,10,0,2017,1
+Louisville,78,2,Jacksonville St.,63,15,0,2017,1
+Kansas,90,1,Michigan St.,70,9,0,2017,2
+Iowa St.,76,5,Purdue,80,4,1,2017,2
+Rhode Island,72,11,Oregon,75,3,1,2017,2
+Michigan,73,7,Louisville,69,2,0,2017,2
+Kansas,98,1,Purdue,66,4,0,2017,3
+Oregon,69,3,Michigan,68,7,0,2017,3
+Kansas,60,1,Oregon,74,3,1,2017,4
+South Carolina,73,7,Gonzaga,77,1,1,2017,5
+Gonzaga,65,1,North Carolina,71,1,1,2017,6
+Oregon,76,3,North Carolina,77,1,1,2017,5
+Gonzaga,66,1,South Dakota St.,46,16,0,2017,1
+Northwestern,68,8,Vanderbilt,66,9,0,2017,1
+Notre Dame,60,5,Princeton,58,12,0,2017,1
+West Virginia,86,4,Bucknell,80,13,0,2017,1
+Maryland,65,6,Xavier,76,11,1,2017,1
+Florida St.,86,3,FGCU,80,14,0,2017,1
+Saint Mary's (CA),85,7,VCU,77,10,0,2017,1
+Arizona,100,2,North Dakota,82,15,1,2017,1
+Gonzaga,79,1,Northwestern,73,8,0,2017,2
+Notre Dame,71,5,West Virginia,83,4,1,2017,2
+Xavier,91,11,Florida St.,66,3,0,2017,2
+Saint Mary's (CA),60,7,Arizona,69,2,1,2017,2
+Gonzaga,61,1,West Virginia,58,4,0,2017,3
+Xavier,73,11,Arizona,71,2,0,2017,3
+Gonzaga,83,1,Xavier,59,11,0,2017,4
+North Carolina,103,1,Texas Southern,64,16,1,2017,1
+Arkansas,77,8,Seton Hall,71,9,0,2017,1
+Minnesota,72,5,Middle Tenn.,81,12,1,2017,1
+Butler,76,4,Winthrop,64,13,0,2017,1
+Cincinnati,75,6,Kansas St.,61,11,0,2017,1
+UCLA,97,3,Kent St.,80,14,0,2017,1
+Dayton,58,7,Wichita St.,64,10,1,2017,1
+Kentucky,79,2,Northern Ky.,70,15,0,2017,1
+North Carolina,72,1,Arkansas,65,8,0,2017,2
+Middle Tenn.,65,12,Butler,74,4,1,2017,2
+Cincinnati,67,6,UCLA,79,3,1,2017,2
+Wichita St.,62,10,Kentucky,65,2,1,2017,2
+North Carolina,92,1,Butler,80,4,0,2017,3
+UCLA,75,3,Kentucky,86,2,1,2017,3
+North Carolina,75,1,Kentucky,73,2,0,2017,4
+Kansas St.,95,11,Wake Forest,88,11,0,2017,0
+Mount St. Mary's,67,16,New Orleans,66,16,0,2017,0
+N.C. Central,63,16,UC Davis,67,16,1,2017,0
+Providence,71,11,Southern California,75,11,1,2017,0
+Virginia,54,1,UMBC,74,16,1,2018,1
+Creighton,59,8,Kansas St.,69,9,1,2018,1
+Kentucky,78,5,Davidson,73,12,0,2018,1
+Arizona,68,4,Buffalo,89,13,1,2018,1
+Miami (FL),62,6,Loyola Chicago,64,11,1,2018,1
+Tennessee,73,3,Wright St.,47,14,0,2018,1
+Nevada,87,7,Texas,83,10,0,2018,1
+Cincinnati,68,2,Georgia St.,53,15,0,2018,1
+UMBC,43,16,Kansas St.,50,9,1,2018,2
+Kentucky,95,5,Buffalo,75,13,0,2018,2
+Loyola Chicago,63,11,Tennessee,62,3,0,2018,2
+Nevada,75,7,Cincinnati,73,2,0,2018,2
+Kansas St.,61,9,Kentucky,58,5,0,2018,3
+Loyola Chicago,69,11,Nevada,68,7,0,2018,3
+Kansas St.,62,9,Loyola Chicago,78,11,1,2018,4
+Villanova,87,1,Radford,61,16,0,2018,1
+Virginia Tech,83,8,Alabama,86,9,1,2018,1
+West Virginia,85,5,Murray St.,68,12,0,2018,1
+Wichita St.,75,4,Marshall,81,13,1,2018,1
+Florida,77,6,St. Bonaventure,62,11,0,2018,1
+Texas Tech,70,3,SFA,60,14,0,2018,1
+Arkansas,62,7,Butler,79,10,1,2018,1
+Purdue,74,2,Cal St. Fullerton,48,15,0,2018,1
+Villanova,81,1,Alabama,58,9,0,2018,2
+West Virginia,94,5,Marshall,71,13,0,2018,2
+Florida,66,6,Texas Tech,69,3,1,2018,2
+Butler,73,10,Purdue,76,2,1,2018,2
+Villanova,90,1,West Virginia,78,5,0,2018,3
+Texas Tech,78,3,Purdue,65,2,0,2018,3
+Villanova,71,1,Texas Tech,59,3,0,2018,4
+Loyola Chicago,57,11,Michigan,69,3,1,2018,5
+Michigan,62,3,Villanova,79,1,1,2018,6
+Villanova,95,1,Kansas,79,1,0,2018,5
+Xavier,102,1,Texas Southern,83,16,1,2018,1
+Missouri,54,8,Florida St.,67,9,1,2018,1
+Ohio St.,81,5,South Dakota St.,73,12,0,2018,1
+Gonzaga,68,4,UNC Greensboro,64,13,0,2018,1
+Houston,67,6,San Diego St.,65,11,0,2018,1
+Michigan,61,3,Montana,47,14,0,2018,1
+Texas A&amp;M,73,7,Providence,69,10,0,2018,1
+North Carolina,84,2,Lipscomb,66,15,0,2018,1
+Xavier,70,1,Florida St.,75,9,1,2018,2
+Ohio St.,84,5,Gonzaga,90,4,1,2018,2
+Houston,63,6,Michigan,64,3,1,2018,2
+Texas A&amp;M,86,7,North Carolina,65,2,0,2018,2
+Florida St.,75,9,Gonzaga,60,4,0,2018,3
+Michigan,99,3,Texas A&amp;M,72,7,0,2018,3
+Florida St.,54,9,Michigan,58,3,1,2018,4
+Kansas,76,1,Penn,60,16,0,2018,1
+Seton Hall,94,8,NC State,83,9,0,2018,1
+Clemson,79,5,New Mexico St.,68,12,0,2018,1
+Auburn,62,4,Col. of Charleston,58,13,0,2018,1
+TCU,52,6,Syracuse,57,11,1,2018,1
+Michigan St.,82,3,Bucknell,78,14,0,2018,1
+Rhode Island,83,7,Oklahoma,78,10,0,2018,1
+Duke,89,2,Iona,67,15,0,2018,1
+Kansas,83,1,Seton Hall,79,8,0,2018,2
+Clemson,84,5,Auburn,53,4,0,2018,2
+Syracuse,55,11,Michigan St.,53,3,0,2018,2
+Rhode Island,62,7,Duke,87,2,1,2018,2
+Kansas,80,1,Clemson,76,5,0,2018,3
+Syracuse,65,11,Duke,69,2,1,2018,3
+Kansas,85,1,Duke,81,2,0,2018,4
+LIU,61,16,Radford,71,16,1,2018,0
+St. Bonaventure,65,11,UCLA,58,11,0,2018,0
+N.C. Central,46,16,Texas Southern,64,16,1,2018,0
+Arizona St.,56,11,Syracuse,60,11,1,2018,0
+Duke,85,1,North Dakota St.,62,16,0,2019,1
+VCU,58,8,UCF,73,9,1,2019,1
+Mississippi St.,76,5,Liberty,80,12,1,2019,1
+Virginia Tech,66,4,Saint Louis,52,13,0,2019,1
+Maryland,79,6,Belmont,77,11,0,2019,1
+LSU,79,3,Yale,74,14,0,2019,1
+Louisville,76,7,Minnesota,86,10,1,2019,1
+Michigan St.,76,2,Bradley,65,15,0,2019,1
+Duke,77,1,UCF,76,9,0,2019,2
+Liberty,58,12,Virginia Tech,67,4,1,2019,2
+Maryland,67,6,LSU,69,3,1,2019,2
+Minnesota,50,10,Michigan St.,70,2,1,2019,2
+Duke,75,1,Virginia Tech,73,4,0,2019,3
+LSU,63,3,Michigan St.,80,2,1,2019,3
+Duke,67,1,Michigan St.,68,2,1,2019,4
+Virginia,71,1,Gardner-Webb,56,16,0,2019,1
+Ole Miss,72,8,Oklahoma,95,9,1,2019,1
+Wisconsin,54,5,Oregon,72,12,1,2019,1
+Kansas St.,64,4,UC Irvine,70,13,1,2019,1
+Villanova,61,6,Saint Mary's (CA),57,11,0,2019,1
+Purdue,61,3,Old Dominion,48,14,0,2019,1
+Cincinnati,72,7,Iowa,79,10,1,2019,1
+Tennessee,77,2,Colgate,70,15,0,2019,1
+Virginia,63,1,Oklahoma,51,9,0,2019,2
+Oregon,73,12,UC Irvine,54,13,0,2019,2
+Villanova,61,6,Purdue,87,3,1,2019,2
+Iowa,77,10,Tennessee,83,2,1,2019,2
+Virginia,53,1,Oregon,49,12,0,2019,3
+Purdue,99,3,Tennessee,94,2,0,2019,3
+Virginia,80,1,Purdue,75,3,0,2019,4
+Michigan St.,51,2,Texas Tech,61,3,1,2019,5
+Texas Tech,77,3,Virginia,85,1,1,2019,6
+Virginia,63,1,Auburn,62,5,0,2019,5
+Gonzaga,87,1,FDU,49,16,0,2019,1
+Syracuse,69,8,Baylor,78,9,1,2019,1
+Marquette,64,5,Murray St.,83,12,1,2019,1
+Florida St.,76,4,Vermont,69,13,0,2019,1
+Buffalo,91,6,Arizona St.,74,11,0,2019,1
+Texas Tech,72,3,Northern Ky.,57,14,0,2019,1
+Nevada,61,7,Florida,70,10,1,2019,1
+Michigan,74,2,Montana,55,15,0,2019,1
+Gonzaga,83,1,Baylor,71,9,0,2019,2
+Murray St.,62,12,Florida St.,90,4,1,2019,2
+Buffalo,58,6,Texas Tech,78,3,1,2019,2
+Florida,49,10,Michigan,64,2,1,2019,2
+Gonzaga,72,1,Florida St.,58,4,0,2019,3
+Texas Tech,63,3,Michigan,44,2,0,2019,3
+Gonzaga,69,1,Texas Tech,75,3,1,2019,4
+North Carolina,88,1,Iona,73,16,0,2019,1
+Utah St.,61,8,Washington,78,9,1,2019,1
+Auburn,78,5,New Mexico St.,77,12,0,2019,1
+Kansas,87,4,Northeastern,53,13,0,2019,1
+Iowa St.,59,6,Ohio St.,62,11,1,2019,1
+Houston,84,3,Georgia St.,55,14,0,2019,1
+Wofford,84,7,Seton Hall,68,10,0,2019,1
+Kentucky,79,2,Abilene Christian,44,15,0,2019,1
+North Carolina,81,1,Washington,59,9,0,2019,2
+Auburn,89,5,Kansas,75,4,0,2019,2
+Ohio St.,59,11,Houston,74,3,1,2019,2
+Wofford,56,7,Kentucky,62,2,1,2019,2
+North Carolina,80,1,Auburn,97,5,1,2019,3
+Houston,58,3,Kentucky,62,2,1,2019,3
+Auburn,77,5,Kentucky,71,2,0,2019,4
+Prairie View,76,16,FDU,82,16,1,2019,0
+Belmont,81,11,Temple,70,11,0,2019,0
+North Dakota St.,78,16,N.C. Central,74,16,0,2019,0
+Arizona St.,74,11,St. John's (NY),65,11,0,2019,0
+Gonzaga,98,1,NSU/APPST,55,16,0,2021,1
+Oklahoma,72,8,Missouri,68,9,0,2021,1
+Creighton,63,5,UC Santa Barbara,62,12,0,2021,1
+Virginia,58,4,Ohio,62,13,1,2021,1
+Southern California,72,6,WSU/DRAKE,56,11,0,2021,1
+Kansas,93,3,Eastern Wash.,84,14,0,2021,1
+Oregon,75,7,VCU,70,10,0,2021,1
+Iowa,86,2,Grand Canyon,74,15,0,2021,1
+Gonzaga,87,1,Oklahoma,71,8,0,2021,2
+Creighton,72,5,Ohio,58,13,0,2021,2
+Southern California,85,6,Kansas,51,3,0,2021,2
+Oregon,95,7,Iowa,80,2,0,2021,2
+Gonzaga,83,1,Creighton,65,5,0,2021,3
+Southern California,82,6,Oregon,68,7,0,2021,3
+Gonzaga,85,1,Southern California,66,6,0,2021,4
+Baylor,79,1,Hartford,55,16,0,2021,1
+North Carolina,62,8,Wisconsin,85,9,1,2021,1
+Villanova,73,5,Winthrop,63,12,0,2021,1
+Purdue,69,4,North Texas,78,13,1,2021,1
+Texas Tech,65,6,Utah St.,53,11,0,2021,1
+Arkansas,85,3,Colgate,68,14,0,2021,1
+Florida,75,7,Virginia Tech,70,10,0,2021,1
+Ohio St.,72,2,Oral Roberts,75,15,1,2021,1
+Baylor,76,1,Wisconsin,63,9,0,2021,2
+Villanova,84,5,North Texas,61,13,0,2021,2
+Texas Tech,66,6,Arkansas,68,3,1,2021,2
+Florida,78,7,Oral Roberts,81,15,1,2021,2
+Baylor,62,1,Villanova,51,5,0,2021,3
+Arkansas,72,3,Oral Roberts,70,15,0,2021,3
+Baylor,81,1,Arkansas,72,3,0,2021,4
+Gonzaga,93,1,UCLA,90,11,0,2021,5
+Gonzaga,70,1,Baylor,86,1,1,2021,6
+Baylor,78,1,Houston,59,2,0,2021,5
+Michigan,82,1,MSM/TXSO,66,16,0,2021,1
+LSU,76,8,St. Bonaventure,61,9,0,2021,1
+Colorado,96,5,Georgetown,73,12,0,2021,1
+Florida St.,64,4,UNC Greensboro,54,13,0,2021,1
+BYU,62,6,MSU/UCLA,73,11,1,2021,1
+Texas,52,3,Abilene Christian,53,14,1,2021,1
+UConn,54,7,Maryland,63,10,1,2021,1
+Alabama,68,2,Iona,55,15,0,2021,1
+Michigan,86,1,LSU,78,8,0,2021,2
+Colorado,53,5,Florida St.,71,4,1,2021,2
+UCLA,67,11,Abilene Christian,47,14,0,2021,2
+Maryland,77,10,Alabama,96,2,1,2021,2
+Michigan,76,1,Florida St.,58,4,0,2021,3
+UCLA,88,11,Alabama,78,2,0,2021,3
+Michigan,49,1,UCLA,51,11,1,2021,4
+Illinois,78,1,Drexel,49,16,0,2021,1
+Loyola Chicago,71,8,Georgia Tech,60,9,0,2021,1
+Tennessee,56,5,Oregon St.,70,12,1,2021,1
+Oklahoma St.,69,4,Liberty,60,13,0,2021,1
+San Diego St.,62,6,Syracuse,78,11,1,2021,1
+West Virginia,84,3,Morehead St.,67,14,0,2021,1
+Clemson,56,7,Rutgers,60,10,1,2021,1
+Houston,87,2,Cleveland St.,56,15,0,2021,1
+Illinois,58,1,Loyola Chicago,71,8,1,2021,2
+Oregon St.,80,12,Oklahoma St.,70,4,0,2021,2
+Syracuse,75,11,West Virginia,72,3,0,2021,2
+Rutgers,60,10,Houston,63,2,1,2021,2
+Loyola Chicago,58,8,Oregon St.,65,12,1,2021,3
+Syracuse,46,11,Houston,62,2,1,2021,3
+Oregon St.,61,12,Houston,67,2,1,2021,4
+Norfolk St.,54,16,App State,53,16,0,2021,0
+Wichita St.,52,11,Drake,53,11,1,2021,0
+Mount St. Mary's,52,16,Texas Southern,60,16,1,2021,0
+Michigan St.,80,11,UCLA,86,11,1,2021,0
+Gonzaga,93,1,Georgia St.,72,16,0,2022,1
+Boise St.,53,8,Memphis,64,9,1,2022,1
+UConn,63,5,New Mexico St.,70,12,1,2022,1
+Arkansas,75,4,Vermont,71,13,0,2022,1
+Alabama,64,6,Notre Dame,78,11,1,2022,1
+Texas Tech,97,3,Montana St.,62,14,0,2022,1
+Michigan St.,74,7,Davidson,73,10,0,2022,1
+Duke,78,2,Cal State Fullerton,61,15,0,2022,1
+Gonzaga,82,1,Memphis,78,9,0,2022,2
+New Mexico St.,48,12,Arkansas,53,4,1,2022,2
+Notre Dame,53,11,Texas Tech,59,3,1,2022,2
+Michigan St.,76,7,Duke,85,2,1,2022,2
+Gonzaga,68,1,Arkansas,74,4,1,2022,3
+Texas Tech,73,3,Duke,78,2,1,2022,3
+Arkansas,69,4,Duke,78,2,1,2022,4
+Arizona,87,1,Wright St.,70,16,0,2022,1
+Seton Hall,42,8,TCU,69,9,1,2022,1
+Houston,82,5,UAB,68,12,0,2022,1
+Illinois,54,4,Chattanooga,53,13,0,2022,1
+Colorado St.,63,6,Michigan,75,11,1,2022,1
+Tennessee,88,3,Longwood,56,14,0,2022,1
+Ohio St.,54,7,Loyola Chicago,41,10,0,2022,1
+Villanova,80,2,Delaware,60,15,0,2022,1
+Arizona,85,1,TCU,80,9,0,2022,2
+Houston,68,5,Illinois,53,4,0,2022,2
+Michigan,76,11,Tennessee,68,3,0,2022,2
+Ohio St.,61,7,Villanova,71,2,1,2022,2
+Arizona,60,1,Houston,72,5,1,2022,3
+Michigan,55,11,Villanova,63,2,1,2022,3
+Houston,44,5,Villanova,50,2,1,2022,4
+Duke,77,2,North Carolina,81,8,1,2022,5
+North Carolina,69,8,Kansas,72,1,1,2022,6
+Villanova,65,2,Kansas,81,1,1,2022,5
+Baylor,85,1,Norfolk St.,49,16,0,2022,1
+North Carolina,95,8,Marquette,63,9,0,2022,1
+Saint Mary's (CA),82,5,Indiana,53,12,0,2022,1
+UCLA,57,4,Akron,53,13,0,2022,1
+Texas,81,6,Virginia Tech,73,11,0,2022,1
+Purdue,78,3,Yale,56,14,0,2022,1
+Murray St.,92,7,San Francisco,87,10,0,2022,1
+Kentucky,79,2,Saint Peter's,85,15,1,2022,1
+Baylor,86,1,North Carolina,93,8,1,2022,2
+Saint Mary's (CA),56,5,UCLA,72,4,1,2022,2
+Texas,71,6,Purdue,81,3,1,2022,2
+Murray St.,60,7,Saint Peter's,70,15,1,2022,2
+North Carolina,73,8,UCLA,66,4,0,2022,3
+Purdue,64,3,Saint Peter's,67,15,1,2022,3
+North Carolina,69,8,Saint Peter's,49,15,0,2022,4
+Kansas,83,1,Texas Southern,56,16,0,2022,1
+San Diego St.,69,8,Creighton,72,9,1,2022,1
+Iowa,63,5,Richmond,67,12,1,2022,1
+Providence,66,4,South Dakota St.,57,13,0,2022,1
+LSU,54,6,Iowa St.,59,11,1,2022,1
+Wisconsin,67,3,Colgate,60,14,0,2022,1
+Southern California,66,7,Miami (FL),68,10,1,2022,1
+Auburn,80,2,Jacksonville St.,61,15,0,2022,1
+Kansas,79,1,Creighton,72,9,0,2022,2
+Richmond,51,12,Providence,79,4,1,2022,2
+Iowa St.,54,11,Wisconsin,49,3,0,2022,2
+Miami (FL),79,10,Auburn,61,2,0,2022,2
+Kansas,66,1,Providence,61,4,0,2022,3
+Iowa St.,56,11,Miami (FL),70,10,1,2022,3
+Kansas,76,1,Miami (FL),50,10,0,2022,4
+Texas Southern,76,16,A&amp;M-Corpus Christi,67,16,0,2022,0
+Wyoming,58,12,Indiana,66,12,1,2022,0
+Wright St.,93,16,Bryant,82,16,0,2022,0
+Rutgers,87,11,Notre Dame,89,11,1,2022,0
+Alabama,96,1,A&amp;M-Corpus Christi,75,16,0,2023,1
+Maryland,67,8,West Virginia,65,9,0,2023,1
+San Diego St.,63,5,Col. of Charleston,57,12,0,2023,1
+Virginia,67,4,Furman,68,13,1,2023,1
+Creighton,72,6,NC State,63,11,0,2023,1
+Baylor,74,3,UC Santa Barbara,56,14,0,2023,1
+Missouri,76,7,Utah St.,65,10,0,2023,1
+Arizona,55,2,Princeton,59,15,1,2023,1
+Alabama,73,1,Maryland,51,8,0,2023,2
+San Diego St.,75,5,Furman,52,13,0,2023,2
+Creighton,85,6,Baylor,76,3,0,2023,2
+Missouri,63,7,Princeton,78,15,1,2023,2
+Alabama,64,1,San Diego St.,71,5,1,2023,3
+Creighton,86,6,Princeton,75,15,0,2023,3
+San Diego St.,57,5,Creighton,56,6,0,2023,4
+Houston,63,1,Northern Ky.,52,16,0,2023,1
+Iowa,75,8,Auburn,83,9,1,2023,1
+Miami (FL),63,5,Drake,56,12,0,2023,1
+Indiana,71,4,Kent St.,60,13,0,2023,1
+Iowa St.,41,6,Pittsburgh,59,11,1,2023,1
+Xavier,72,3,Kennesaw St.,67,14,0,2023,1
+Texas A&amp;M,59,7,Penn St.,76,10,1,2023,1
+Texas,81,2,Colgate,61,15,0,2023,1
+Houston,81,1,Auburn,64,9,0,2023,2
+Miami (FL),85,5,Indiana,69,4,0,2023,2
+Pittsburgh,73,11,Xavier,84,3,1,2023,2
+Penn St.,66,10,Texas,71,2,1,2023,2
+Houston,75,1,Miami (FL),89,5,1,2023,3
+Xavier,71,3,Texas,83,2,1,2023,3
+Miami (FL),88,5,Texas,81,2,0,2023,4
+San Diego St.,72,5,Fla. Atlantic,71,9,0,2023,5
+San Diego St.,59,5,UConn,76,4,1,2023,6
+Miami (FL),59,5,UConn,72,4,1,2023,5
+Purdue,58,1,FDU,63,16,1,2023,1
+Memphis,65,8,Fla. Atlantic,66,9,1,2023,1
+Duke,74,5,Oral Roberts,51,12,0,2023,1
+Tennessee,58,4,Louisiana,55,13,0,2023,1
+Kentucky,61,6,Providence,53,11,0,2023,1
+Kansas St.,77,3,Montana St.,65,14,0,2023,1
+Michigan St.,72,7,Southern California,62,10,0,2023,1
+Marquette,78,2,Vermont,61,15,0,2023,1
+FDU,70,16,Fla. Atlantic,78,9,1,2023,2
+Duke,52,5,Tennessee,65,4,1,2023,2
+Kentucky,69,6,Kansas St.,75,3,1,2023,2
+Michigan St.,69,7,Marquette,60,2,0,2023,2
+Fla. Atlantic,62,9,Tennessee,55,4,0,2023,3
+Kansas St.,98,3,Michigan St.,93,7,0,2023,3
+Fla. Atlantic,79,9,Kansas St.,76,3,0,2023,4
+Kansas,96,1,Howard,68,16,0,2023,1
+Arkansas,73,8,Illinois,63,9,0,2023,1
+Saint Mary's (CA),63,5,VCU,51,12,0,2023,1
+UConn,87,4,Iona,63,13,0,2023,1
+TCU,72,6,Arizona St.,70,11,0,2023,1
+Gonzaga,82,3,Grand Canyon,70,14,0,2023,1
+Northwestern,75,7,Boise St.,67,10,0,2023,1
+UCLA,86,2,UNC Asheville,53,15,0,2023,1
+Kansas,71,1,Arkansas,72,8,1,2023,2
+Saint Mary's (CA),55,5,UConn,70,4,1,2023,2
+TCU,81,6,Gonzaga,84,3,1,2023,2
+Northwestern,63,7,UCLA,68,2,1,2023,2
+Arkansas,65,8,UConn,88,4,1,2023,3
+Gonzaga,79,3,UCLA,76,2,0,2023,3
+UConn,82,4,Gonzaga,54,3,0,2023,4
+A&amp;M-Corpus Christi,75,16,Southeast Mo. St.,71,16,0,2023,0
+Texas Southern,61,16,FDU,84,16,1,2023,0
+Arizona St.,98,11,Nevada,73,11,0,2023,0
+Mississippi St.,59,11,Pittsburgh,60,11,1,2023,0
