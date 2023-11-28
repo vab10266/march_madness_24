@@ -1,6 +1,7 @@
 from utils import *
 import pandas as pd
 import scipy.stats
+from sklearn.metrics import accuracy_score
 
 real_bracket = np.array(
     [[[
@@ -81,7 +82,19 @@ class BracketEvaluator:
         
         return mean_confidence_interval(self.best_scores, confidence)
         
-        
+class ModelEvaluator:
+    def __init__(self, years, cols) -> None:
+        data_path = f'{DATA_DIR}\\training_data.csv'
+        data = pd.read_csv(data_path)
+        data = data[data.YEAR.isin(years)]
+
+        self.X = column_selector(data, cols)
+        self.y = data['RESULT']
+
+    def evaluate(self, model):
+        y_pred = model.predict(self.X)
+        return accuracy_score(self.y, y_pred)
+
 if __name__ == "__main__":
     
     evaluator = BracketEvaluator(year=23)

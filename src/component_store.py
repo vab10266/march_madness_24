@@ -2,27 +2,32 @@ from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 import numpy as np
 from utils import *
+from evaluation import ModelEvaluator
 
-class TrainingDataIngestionComponent:
-    def __init__(self, years, cols=[1, 2, 3, 4, 5, 18, 19]):
-        self.years = years
+class DataIngestionComponent:
+    def __init__(self, cols=[1, 2, 3, 4, 5, 18, 19]):
+        # self.years = years
         self.cols = cols
 
-    def execute(self, _):
+    def execute(self, passthrough_dict):
         print("TrainingDataIngestionComponent")
+        years = passthrough_dict['years']
+        print(years)
         # Example: Reading data from CSV
         data_path = f'{DATA_DIR}\\training_data.csv'
         # print(data_path)
         data = pd.read_csv(data_path)
         # print(data)
-        data = data[data.YEAR.isin(self.years)]
+        data = data[data.YEAR.isin(years)]
         # print(data)
 
         X = column_selector(data, self.cols)
         y = data['RESULT']
         # print(X)
         # print(y)
-        return X, y
+        passthrough_dict['x'] = X
+        passthrough_dict['y'] = y
+        return passthrough_dict
 
 class ModelTrainingComponent:
     model_dict = {
@@ -31,33 +36,33 @@ class ModelTrainingComponent:
     def __init__(self, model_key, param_dict={}):
         self.model = ModelTrainingComponent.model_dict[model_key](**param_dict)
 
-    def execute(self, input):
+    def execute(self, passthrough_dict):
         print("ModelTrainingComponent")
         # print(input)
-        X, y = input
+        X, y = passthrough_dict['x'], passthrough_dict['y']
         # Example: Training the model
         self.model.fit(X, y)
-
-        return self.model
+        passthrough_dict['model'] = self.model
+        return passthrough_dict
 
 class InferenceBracketComponent:
-    def __init__(self, year, cols=[1, 2, 3, 4, 5, 18, 19], rand=True, num_groups=100, brackets_per_group=50):
-        self.year = year
+    def __init__(self, cols=[1, 2, 3, 4, 5, 18, 19], rand=True, num_groups=100, brackets_per_group=50):
         self.cols = cols
         self.rand = rand
         self.num_groups = num_groups
         self.brackets_per_group = brackets_per_group
-        
+
+    def execute(self, passthrough_dict):
+        # Returns a numpy array of shape (num_groups, brackets_per_group, 63)
+
+        model = passthrough_dict['model']
+        year = passthrough_dict['years'][0]
         self.team_data = get_team_data(year)
+        print(self.team_data.columns)
         if not 'SEED' in self.team_data.columns:
             df = pd.read_csv(f'{DATA_DIR}\\teams{year}.csv')
             self.team_data = pd.merge(df, self.team_data, 'left', on='TEAM')
-        # print("team data")
-        # print(self.team_data)
-
-
-    def execute(self, model):
-        # Returns a numpy array of shape (num_groups, brackets_per_group, 63)
+            
         print("InferenceBracketComponent")
         # Time: 0.1 seconds per bracket
         groups = []
@@ -84,7 +89,36 @@ class InferenceBracketComponent:
                 
                 brackets.append(np.concatenate([r1_preds, r2_preds, r3_preds, r4_preds, r5_preds, r6_preds], axis=0))
             groups.append(np.stack(brackets, axis=0))
-        return np.stack(groups, axis=0)
+        passthrough_dict['brackets'] = np.stack(groups, axis=0)
+        print("+-="*100)
+        print(passthrough_dict)
+        return passthrough_dict
+
+class InferenceGameComponent:
+    def __init__(self) -> None:
+        pass
+
+    def execute(self, passthrough_dict):
+        model = passthrough_dict['model']
+        X = passthrough_dict['x']
+        pred = model.predict(X)
+        
+        passthrough_dict['preds'] = pred
+        return passthrough_dict
+
+class ModelEvaluatorComponent:
+    def __init__(self, cols):
+        self.cols = cols
+
+    def execute(self, passthrough_dict):
+        years = passthrough_dict['years']
+        eval = ModelEvaluator(years=years, cols=self.cols)
+        model = passthrough_dict['model']
+        acc = eval.evaluate(model=model)
+        print(acc)
+        passthrough_dict['acc'] = acc
+
+        return passthrough_dict
 
 class GeneticAlgorithmComponent:
     def __init__(self, population_size, generations):

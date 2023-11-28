@@ -1,10 +1,10 @@
 {
-    "train_years":[2018, 2019, 2020, 2021],
-    "test_year":23,
+    "train_years":[2018, 2019, 2020],
+    "test_year":[21],
     "cols":[1, 2, 3, 4, 5, 18, 19], 
     "model_key":"rfc",
     "param_dict":{"random_state": 69}, 
     "rand":true, 
-    "num_groups":5, 
+    "num_groups":10, 
     "brackets_per_group":3
 }
