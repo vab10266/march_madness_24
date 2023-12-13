@@ -125,7 +125,8 @@ class GeneticAlgorithmComponent:
         self.population_size = population_size
         self.generations = generations
 
-    def execute(self, initial_population, X_test, y_test):
+    def execute(self, passthrough_dict, initial_population, X_test, y_test):
+        model = passthrough_dict['model']
         population = initial_population
 
         for generation in range(self.generations):

@@ -26,13 +26,25 @@ def team_round(start_ind, end_ind, teams, results):
     # print(next_teams)
     return next_teams
 
+def ind_eval(true, pred):
+	r1_score = (true[0:32] == pred[0:32]).sum()
+	r2_score = (true[32:32] == pred[0:32]).sum()
+	r3_score = (true[0:32] == pred[0:32]).sum()
+	r4_score = (true[0:32] == pred[0:32]).sum()
+	r1_score = (true[0:32] == pred[0:32]).sum()
+	r1_score = (true[0:32] == pred[0:32]).sum()
+	return r1_score
+	
+def group_eval(true_brackets, pred_bracket_groups):
+	pass
+	
 class BracketEvaluator:
     def __init__(self, year):
         self.bracket_data = get_bracket(year-2)
 
         self.team_data = get_team_data(year)
         if not 'SEED' in self.team_data.columns:
-            df = pd.read_csv(f'{DATA_DIR}\\teams{year}.csv')
+            df = pd.read_csv(f'{DATA_DIR}/teams{year}.csv')
             self.team_data = pd.merge(df, self.team_data, 'left', on='TEAM')
         
         point_arr = []

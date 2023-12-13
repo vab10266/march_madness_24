@@ -2,14 +2,14 @@ import os
 import pandas as pd
 import numpy as np
 
-DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..\\data'))
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../data'))
 
 def get_team_data(year):
-    df = pd.read_csv(f'{DATA_DIR}\\cbb{year}.csv')
+    df = pd.read_csv(f'{DATA_DIR}/cbb{year}.csv')
     return df[['TEAM','CONF','G','W','ADJOE','ADJDE','BARTHAG','EFG_O','EFG_D','TOR','TORD','ORB','DRB','FTR','FTRD','2P_O','2P_D','3P_O','3P_D','ADJ_T','WAB']]
 
 def get_bracket(year):
-    df = pd.read_csv(f'{DATA_DIR}\\data_cleaned.csv')
+    df = pd.read_csv(f'{DATA_DIR}/data_cleaned.csv')
     df = df[df['YEAR'] == int(f'20{year}')]
     return df
 
