@@ -1,12 +1,81 @@
 import os
 import pandas as pd
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier
+from tqdm import trange
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../data'))
+
+best_features = [5, 6, 8, 10, 12, 14, 16, 18, 20]
 
 def get_team_data(year):
     df = pd.read_csv(f'{DATA_DIR}/cbb{year}.csv')
     return df[['TEAM','CONF','G','W','ADJOE','ADJDE','BARTHAG','EFG_O','EFG_D','TOR','TORD','ORB','DRB','FTR','FTRD','2P_O','2P_D','3P_O','3P_D','ADJ_T','WAB']]
+
+def get_training_data(years):
+    data = pd.read_csv(f'{DATA_DIR}/training_data.csv', index_col=0)
+    data = data[data.year.isin(years)]
+    return data
+
+def run_pipe(train_start, train_end, test_year, features):
+    train_df = get_training_data([train_start + x for x in range(train_end-train_start+1)])
+    train_X = column_selector(train_df, features)
+    train_y = train_df['result']
+
+    if train_df.size == 0:
+        return
+
+    clf = RandomForestClassifier()
+    clf.fit(train_X, train_y)
+
+    test_df = get_training_data([test_year])
+    test_X = column_selector(test_df, features)
+    test_y = test_df['result']
+
+    if test_df.size == 0:
+        return
+
+    train_score = clf.score(train_X, train_y)
+    test_score = clf.score(test_X, test_y)
+
+    return train_score, test_score, clf
+
+def make_X_from_teams(team_names, year, features):
+    features_df = pd.read_csv(f"{DATA_DIR}/kenpom.csv", index_col=0)
+    features_df = features_df[features_df["YEAR"] == year]
+
+    teams_df = pd.merge(team_names, features_df, how="left", left_on="value", right_on="TEAM")
+    teams_df = pd.concat((teams_df.iloc[:, -3:], teams_df.iloc[:, 1:2], teams_df.iloc[:, 2:3], teams_df.iloc[:, 6:-4]), axis=1)
+
+    teams_df_1 = teams_df.iloc[0::2].add_prefix("A_").reset_index(drop=True)
+    teams_df_2 = teams_df.iloc[1::2].add_prefix("B_").reset_index(drop=True)
+    teams_df = pd.concat((teams_df_1, teams_df_2), axis=1)
+
+    X_df = column_selector(teams_df, features)
+
+    return X_df
+
+def run_round_np(clf, features, start_team_names, year):
+    X_df = make_X_from_teams(start_team_names, year, features)
+
+    pred_probs = clf.predict_proba(X_df)
+    r = np.random.rand(pred_probs.shape[0])
+    r = (pred_probs[:, 0] < r).astype(int)
+    pred_inds = np.arange(pred_probs.shape[0]) * 2 + r
+    next_team_names = start_team_names.iloc[pred_inds]
+    return next_team_names, r
+
+def generate_brackets_np(clf, features, start_team_names, year, num_brackets):
+    all_brackets = np.zeros((0,63))
+
+    for i in trange(num_brackets):
+        bracket = np.zeros((0,))
+        team_names = start_team_names
+        while team_names.shape[0] > 1:
+            team_names, results = run_round_np(clf, features, team_names, year)
+            bracket = np.concatenate([bracket, results])
+        all_brackets = np.concatenate([all_brackets, bracket.reshape((1, -1))], axis=0)
+    return all_brackets
 
 def get_bracket(year):
     df = pd.read_csv(f'{DATA_DIR}/data_cleaned.csv')
@@ -42,7 +111,7 @@ def column_selector(df, cols):
     for col in cols:
         x_cols.append(df.columns[col])
     for col in cols:
-        x_cols.append(df.columns[20+col])
+        x_cols.append(df.columns[22+col])
 
     X = df[x_cols]
     return X

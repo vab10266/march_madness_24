@@ -13,18 +13,13 @@ class DataIngestionComponent:
         print("TrainingDataIngestionComponent")
         years = passthrough_dict['years']
         print(years)
-        # Example: Reading data from CSV
-        data_path = f'{DATA_DIR}\\training_data.csv'
-        # print(data_path)
-        data = pd.read_csv(data_path)
-        # print(data)
-        data = data[data.YEAR.isin(years)]
-        # print(data)
+
+        data = get_training_data(years)
 
         X = column_selector(data, self.cols)
-        y = data['RESULT']
-        # print(X)
-        # print(y)
+        y = data['result']
+        print(X.shape, y.shape)
+        
         passthrough_dict['x'] = X
         passthrough_dict['y'] = y
         return passthrough_dict
