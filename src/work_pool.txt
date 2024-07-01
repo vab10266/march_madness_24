@@ -1,0 +1,165 @@
+             value  SEED           value SEED        value SEED        value SEED    value SEED    value SEED
+0      Connecticut   1.0     Connecticut  1.0  Connecticut  1.0  Connecticut  1.0  Arizona  2.0  Houston  1.0
+1     Northwestern   9.0   San Diego St.  5.0     Iowa St.  2.0      Arizona  2.0  Houston  1.0              
+2    San Diego St.   5.0             BYU  6.0      Alabama  4.0      Houston  1.0                            
+3           Auburn   4.0        Iowa St.  2.0      Arizona  2.0        Texas  7.0                            
+4              BYU   6.0  North Carolina  1.0      Houston  1.0                                              
+5         Illinois   3.0         Alabama  4.0    Marquette  2.0                                              
+6            Drake  10.0          Baylor  3.0       Purdue  1.0                                              
+7         Iowa St.   2.0         Arizona  2.0        Texas  7.0                                              
+8   North Carolina   1.0         Houston  1.0                                                                
+9     Michigan St.   9.0            Duke  4.0                                                                
+10    Saint Mary's   5.0        Kentucky  3.0                                                                
+11         Alabama   4.0       Marquette  2.0                                                                
+12         Clemson   6.0          Purdue  1.0                                                                
+13          Baylor   3.0         Gonzaga  5.0                                                                
+14          Dayton   7.0       Creighton  3.0                                                                
+15         Arizona   2.0           Texas  7.0                                                                
+16         Houston   1.0                                                                                     
+17        Nebraska   8.0                                                                                     
+18       Wisconsin   5.0                                                                                     
+19            Duke   4.0                                                                                     
+20      N.C. State  11.0                                                                                     
+21        Kentucky   3.0                                                                                     
+22         Florida   7.0                                                                                     
+23       Marquette   2.0                                                                                     
+24          Purdue   1.0                                                                                     
+25             TCU   9.0                                                                                     
+26         Gonzaga   5.0                                                                                     
+27          Kansas   4.0                                                                                     
+28          Oregon  11.0                                                                                     
+29       Creighton   3.0                                                                                     
+30           Texas   7.0                                                                                     
+31       Tennessee   2.0                                                                                     
+               value  SEED             value  SEED        value SEED        value SEED        value SEED  value SEED
+0        Connecticut   1.0       Connecticut   1.0  Connecticut  1.0  Connecticut  1.0  Connecticut  1.0  Texas  7.0
+1   Florida Atlantic   8.0     San Diego St.   5.0     Illinois  3.0      Alabama  4.0        Texas  7.0            
+2      San Diego St.   5.0          Illinois   3.0      Alabama  4.0      Houston  1.0                              
+3             Auburn   4.0  South Dakota St.  15.0       Baylor  3.0        Texas  7.0                              
+4                BYU   6.0      Michigan St.   9.0      Houston  1.0                                                
+5           Illinois   3.0           Alabama   4.0    Marquette  2.0                                                
+6     Washington St.   7.0            Baylor   3.0       Purdue  1.0                                                
+7   South Dakota St.  15.0           Arizona   2.0        Texas  7.0                                                
+8     North Carolina   1.0           Houston   1.0                                                                  
+9       Michigan St.   9.0              Duke   4.0                                                                  
+10      Saint Mary's   5.0          Kentucky   3.0                                                                  
+11           Alabama   4.0         Marquette   2.0                                                                  
+12        New Mexico  11.0            Purdue   1.0                                                                  
+13            Baylor   3.0            Kansas   4.0                                                                  
+14            Nevada  10.0         Creighton   3.0                                                                  
+15           Arizona   2.0             Texas   7.0                                                                  
+16           Houston   1.0                                                                                          
+17          Nebraska   8.0                                                                                          
+18         Wisconsin   5.0                                                                                          
+19              Duke   4.0                                                                                          
+20        Texas Tech   6.0                                                                                          
+21          Kentucky   3.0                                                                                          
+22           Florida   7.0                                                                                          
+23         Marquette   2.0                                                                                          
+24            Purdue   1.0                                                                                          
+25               TCU   9.0                                                                                          
+26           Gonzaga   5.0                                                                                          
+27            Kansas   4.0                                                                                          
+28    South Carolina   6.0                                                                                          
+29         Creighton   3.0                                                                                          
+30             Texas   7.0                                                                                          
+31         Tennessee   2.0                                                                                          
+               value  SEED          value SEED        value SEED        value SEED    value SEED    value SEED
+0        Connecticut   1.0    Connecticut  1.0  Connecticut  1.0  Connecticut  1.0  Alabama  4.0  Alabama  4.0
+1   Florida Atlantic   8.0  San Diego St.  5.0     Illinois  3.0      Alabama  4.0  Houston  1.0              
+2      San Diego St.   5.0       Illinois  3.0      Alabama  4.0      Houston  1.0                            
+3             Auburn   4.0       Iowa St.  2.0      Arizona  2.0       Purdue  1.0                            
+4           Duquesne  11.0   Michigan St.  9.0      Houston  1.0                                              
+5           Illinois   3.0        Alabama  4.0    Marquette  2.0                                              
+6     Washington St.   7.0         Baylor  3.0       Purdue  1.0                                              
+7           Iowa St.   2.0        Arizona  2.0        Texas  7.0                                              
+8     North Carolina   1.0        Houston  1.0                                                                
+9       Michigan St.   9.0           Duke  4.0                                                                
+10      Saint Mary's   5.0       Kentucky  3.0                                                                
+11           Alabama   4.0      Marquette  2.0                                                                
+12           Clemson   6.0         Purdue  1.0                                                                
+13            Baylor   3.0         Kansas  4.0                                                                
+14            Dayton   7.0      Creighton  3.0                                                                
+15           Arizona   2.0          Texas  7.0                                                                
+16           Houston   1.0                                                                                    
+17         Texas A&M   9.0                                                                                    
+18         Wisconsin   5.0                                                                                    
+19              Duke   4.0                                                                                    
+20        N.C. State  11.0                                                                                    
+21          Kentucky   3.0                                                                                    
+22           Florida   7.0                                                                                    
+23         Marquette   2.0                                                                                    
+24            Purdue   1.0                                                                                    
+25          Utah St.   8.0                                                                                    
+26           Gonzaga   5.0                                                                                    
+27            Kansas   4.0                                                                                    
+28    South Carolina   6.0                                                                                    
+29         Creighton   3.0                                                                                    
+30             Texas   7.0                                                                                    
+31         Tennessee   2.0                                                                                    
+               value  SEED          value  SEED          value SEED          value SEED          value SEED          value SEED
+0        Connecticut   1.0    Connecticut   1.0  San Diego St.  5.0  San Diego St.  5.0  San Diego St.  5.0  San Diego St.  5.0
+1   Florida Atlantic   8.0  San Diego St.   5.0       Iowa St.  2.0   Saint Mary's  5.0      Marquette  2.0                    
+2      San Diego St.   5.0       Illinois   3.0   Saint Mary's  5.0      Marquette  2.0                                        
+3             Auburn   4.0       Iowa St.   2.0        Arizona  2.0         Purdue  1.0                                        
+4           Duquesne  11.0   Michigan St.   9.0           Duke  4.0                                                            
+5           Illinois   3.0   Saint Mary's   5.0      Marquette  2.0                                                            
+6              Drake  10.0        Clemson   6.0         Purdue  1.0                                                            
+7           Iowa St.   2.0        Arizona   2.0          Texas  7.0                                                            
+8     North Carolina   1.0        Houston   1.0                                                                                
+9       Michigan St.   9.0           Duke   4.0                                                                                
+10      Saint Mary's   5.0        Oakland  14.0                                                                                
+11           Alabama   4.0      Marquette   2.0                                                                                
+12           Clemson   6.0         Purdue   1.0                                                                                
+13            Baylor   3.0         Kansas   4.0                                                                                
+14            Dayton   7.0      Creighton   3.0                                                                                
+15           Arizona   2.0          Texas   7.0                                                                                
+16           Houston   1.0                                                                                                     
+17          Nebraska   8.0                                                                                                     
+18         Wisconsin   5.0                                                                                                     
+19              Duke   4.0                                                                                                     
+20        Texas Tech   6.0                                                                                                     
+21           Oakland  14.0                                                                                                     
+22          Colorado  10.0                                                                                                     
+23         Marquette   2.0                                                                                                     
+24            Purdue   1.0                                                                                                     
+25               TCU   9.0                                                                                                     
+26           Gonzaga   5.0                                                                                                     
+27            Kansas   4.0                                                                                                     
+28    South Carolina   6.0                                                                                                     
+29         Creighton   3.0                                                                                                     
+30             Texas   7.0                                                                                                     
+31         Tennessee   2.0                                                                                                     
+             value  SEED          value SEED        value SEED        value SEED        value SEED        value SEED
+0      Connecticut   1.0    Connecticut  1.0  Connecticut  1.0  Connecticut  1.0  Connecticut  1.0  Connecticut  1.0
+1     Northwestern   9.0  San Diego St.  5.0     Illinois  3.0      Alabama  4.0       Kansas  4.0                  
+2    San Diego St.   5.0       Illinois  3.0      Alabama  4.0      Houston  1.0                                    
+3           Auburn   4.0       Iowa St.  2.0      Arizona  2.0       Kansas  4.0                                    
+4              BYU   6.0   Michigan St.  9.0      Houston  1.0                                                      
+5         Illinois   3.0        Alabama  4.0    Marquette  2.0                                                      
+6   Washington St.   7.0         Baylor  3.0       Kansas  4.0                                                      
+7         Iowa St.   2.0        Arizona  2.0        Texas  7.0                                                      
+8   North Carolina   1.0        Houston  1.0                                                                        
+9     Michigan St.   9.0           Duke  4.0                                                                        
+10    Saint Mary's   5.0       Kentucky  3.0                                                                        
+11         Alabama   4.0      Marquette  2.0                                                                        
+12      New Mexico  11.0         Purdue  1.0                                                                        
+13          Baylor   3.0         Kansas  4.0                                                                        
+14          Nevada  10.0      Creighton  3.0                                                                        
+15         Arizona   2.0          Texas  7.0                                                                        
+16         Houston   1.0                                                                                            
+17        Nebraska   8.0                                                                                            
+18       Wisconsin   5.0                                                                                            
+19            Duke   4.0                                                                                            
+20      N.C. State  11.0                                                                                            
+21        Kentucky   3.0                                                                                            
+22         Florida   7.0                                                                                            
+23       Marquette   2.0                                                                                            
+24          Purdue   1.0                                                                                            
+25             TCU   9.0                                                                                            
+26         Gonzaga   5.0                                                                                            
+27          Kansas   4.0                                                                                            
+28          Oregon  11.0                                                                                            
+29       Creighton   3.0                                                                                            
+30           Texas   7.0                                                                                            
+31       Tennessee   2.0                                                                                            

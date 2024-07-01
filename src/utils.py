@@ -17,7 +17,7 @@ def get_training_data(years):
     data = data[data.year.isin(years)]
     return data
 
-def run_pipe(train_start, train_end, test_year, features):
+def run_pipe(train_start, train_end, test_year, features, model=RandomForestClassifier, params=None):
     train_df = get_training_data([train_start + x for x in range(train_end-train_start+1)])
     train_X = column_selector(train_df, features)
     train_y = train_df['result']
@@ -25,7 +25,10 @@ def run_pipe(train_start, train_end, test_year, features):
     if train_df.size == 0:
         return
 
-    clf = RandomForestClassifier()
+    if params:
+        clf = model(**params)
+    else:
+        clf = model()
     clf.fit(train_X, train_y)
 
     test_df = get_training_data([test_year])
