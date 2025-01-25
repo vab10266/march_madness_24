@@ -12,13 +12,23 @@ def get_team_data(year):
     df = pd.read_csv(f'{DATA_DIR}/cbb{year}.csv')
     return df[['TEAM','CONF','G','W','ADJOE','ADJDE','BARTHAG','EFG_O','EFG_D','TOR','TORD','ORB','DRB','FTR','FTRD','2P_O','2P_D','3P_O','3P_D','ADJ_T','WAB']]
 
+def get_team_names(year):
+    df = pd.read_csv(f"{DATA_DIR}/cleaned_bracket_data.csv", index_col=0)
+    df = df[(df["year"] == year) & (df["round"] == 1)]
+    start_team_names = df[["team1", "team2"]].reset_index().melt(id_vars=['index'], value_vars=['team1', 'team2']).sort_values(["index", "variable"]).reset_index(drop=True)["value"]
+    start_team_names = pd.merge(start_team_names, df[["team1", "team1seed"]], how="left", left_on="value", right_on="team1").rename({"team1seed":"SEED"}, axis=1).drop("team1", axis=1)
+    start_team_names = pd.merge(start_team_names, df[["team2", "team2seed"]], how="left", left_on="value", right_on="team2").drop("team2", axis=1)
+    start_team_names.loc[start_team_names["SEED"].isna(), "SEED"] = start_team_names["team2seed"]
+    start_team_names = start_team_names.drop("team2seed", axis=1)
+    return start_team_names
+
 def get_training_data(years):
     data = pd.read_csv(f'{DATA_DIR}/training_data.csv', index_col=0)
     data = data[data.year.isin(years)]
     return data
 
 def run_pipe(train_start, train_end, test_year, features, model=RandomForestClassifier, params=None):
-    train_df = get_training_data([train_start + x for x in range(train_end-train_start+1)])
+    train_df = get_training_data([train_start + x for x in range(train_end-train_start+1) if train_start + x != test_year])
     train_X = column_selector(train_df, features)
     train_y = train_df['result']
 
